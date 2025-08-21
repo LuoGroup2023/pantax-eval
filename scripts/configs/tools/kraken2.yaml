@@ -1,0 +1,36 @@
+# @package _global_
+tool:
+  _name_: kraken2
+  species_level:
+    db: /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/alternative_methods/kraken2/species/kraken2_db
+  strain_level:
+    db: /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/alternative_methods/kraken2/strain/kraken2_db
+    tax2genome: /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/scripts/data/kraken2_strain_taxid.tsv
+  zymo1_strain_level:
+    db: /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/alternative_methods/kraken2/zymo1_strain/kraken2_db
+    database_genomes_info: /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/multi_species_single_strain_zymo/genomes_info_sample.txt
+    tax2genome: /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/scripts/data/zymo1_strain_taxid.tsv
+  spiked_in_strain_level:
+    db: /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/alternative_methods/kraken2/spiked_in_666/kraken2_db
+    database_genomes_info: /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/single_species_strain_level_666/pantax/pantax_db/genomes_info.txt
+    tax2genome: /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/scripts/data/spiked_in_666_strain_taxid.tsv
+  spiked_in_strain_level_species666_large_pangenome:
+    db: /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/alternative_methods/kraken2/strain/kraken2_db 
+    tax2genome: /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/scripts/data/kraken2_strain_taxid_666.tsv
+    designated_species: 666
+  gtdb_strain_level:
+    db: /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/alternative_methods/kraken2/gtdb100/kraken2_db
+    database_genomes_info: /home/work/wenhai/metaprofiling/bacteria_GTDB/data/genomes_info.txt
+    tax2genome: /home/work/wenhai/metaprofiling/bacteria_GTDB/data/gtdb_taxonomy/strain_taxid.tsv
+    genomes_length_for_strains: /home/work/wenhai/metaprofiling/bacteria_GTDB/data/genome_statics_gtdb.txt
+  # profile level tool can do
+  profile_level: 
+    - species_level
+    - strain_level
+    - zymo1_strain_level
+    - spiked_in_strain_level
+    - spiked_in_strain_level_species666_large_pangenome
+    - gtdb_strain_level
+  read_type:
+    - short
+    - long

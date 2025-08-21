@@ -1,0 +1,9 @@
+tool_name	profile_level	dataset	sample_id	0	1	2	3	4	5	6	7	8
+PanTax	strain_level	simlow-subsample0.5	clr	0.615	0.933	0.742	0.903	0.046	0.004	0.296	0.334	0.167
+PanTax (fast)	strain_level	simlow-subsample0.5	clr	0.671	0.783	0.723	0.774	0.066	0.005	0.390	0.372	0.186
+Ganon	strain_level	simlow-subsample0.5	clr	-	-	-	-	-	-	-	-	-
+KMCP	strain_level	simlow-subsample0.5	clr	-	-	-	-	-	-	-	-	-
+Kraken2	strain_level	simlow-subsample0.5	clr	0.232	0.933	0.372	0.905	0.073	0.005	0.338	0.387	0.194
+Centrifuge	strain_level	simlow-subsample0.5	clr	0.052	0.933	0.099	0.921	0.058	0.003	0.189	0.277	0.138
+Centrifuger	strain_level	simlow-subsample0.5	clr	0.320	0.933	0.477	0.914	0.057	0.003	0.234	0.263	0.131
+MetaMaps	strain_level	simlow-subsample0.5	clr	0.730	0.900	0.806	0.879	0.046	0.003	0.258	0.229	0.115

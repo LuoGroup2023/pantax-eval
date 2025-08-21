@@ -1,0 +1,7 @@
+# @package _global_
+report:
+  _name_: single_dataset_strain_latex_report
+  model_tex: configs/report/report_model/single_dataset_strain_report_model.tex
+  # model_tex:
+  # model_tex_split: [configs/report/report_model/single_dataset_strain_report_model1.tex, configs/report/report_model/single_dataset_strain_report_model2.tex]
+  profile_level: strain_level

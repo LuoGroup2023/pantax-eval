@@ -1,0 +1,46 @@
+# @package _global_
+dataset:
+  _name_: refdiv
+  samplesID: 
+    short:
+      - ngs
+    long:
+      - hifi
+      - ontR9
+      - ontR10
+      - clr
+  true_abund: 
+  strain_true_abund: /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/reference_diversity/simulation/prepare/distribution.txt
+  strain_true_cov: 
+  reads_path:
+    ngs:
+      ngs_reads_fq: /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/reference_diversity/simulation/ngs/ngs/2025.07.07_11.14.56_sample_0/reads/anonymous_reads.fq.gz
+      ngs_reads_fq1: 
+      ngs_reads_fq2: 
+      ngs_read_length: 150
+      camisim_reads_mapping_path: 
+      pantax_db:
+    hifi:
+      hifi_reads_fq: /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/reference_diversity/simulation/hifi/hifi/2025.07.07_11.16.46_sample_0/reads/anonymous_reads.fq.gz
+      hifi_reads_fa:
+      hifi_read_length: 
+      camisim_reads_mapping_path: 
+      pantax_db:
+    ontR9:
+      ontR9_reads_fq: /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/reference_diversity/simulation/ontR941/ontR941/2025.07.28_06.22.26_sample_0/reads/anonymous_reads.fq.gz
+      ontR9_reads_fa: 
+      ontR9_read_length: 
+      camisim_reads_mapping_path: 
+      pantax_db:
+    ontR10:
+      ontR10_reads_fq: /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/reference_diversity/simulation/ontR104/ontR104/2025.07.12_11.09.36_sample_0/reads/anonymous_reads.fq.gz
+      ontR10_reads_fa:
+      ontR10_read_length: 
+      camisim_reads_mapping_path: 
+      pantax_db:
+    clr:
+      clr_reads_fq: /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/reference_diversity/simulation/clr/clr/2025.07.28_06.23.30_sample_0/reads/anonymous_reads.fq.gz
+      clr_reads_fa:
+      clr_read_length: 
+      camisim_reads_mapping_path: 
+      pantax_db:

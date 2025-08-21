@@ -1,0 +1,16 @@
+# @package _global_
+dataset:
+  _name_: simlow-low
+  samplesID: 
+    short:
+      - ngs
+  true_abund: /home/work/wenhai/simulate_genome_data/PanTax/prepare/30_species/true_species_abundance.txt
+  strain_true_abund: /home/work/wenhai/simulate_genome_data/PanTax/short_read/30species_low/sim-30species-low-ngs/distributions/distribution_0.txt
+  reads_path:
+    ngs:
+      ngs_reads_fq: /home/work/wenhai/simulate_genome_data/PanTax/short_read/30species_low/sim-30species-low-ngs/2024.02.28_14.57.25_sample_0/reads/anonymous_reads.fq.gz
+      ngs_reads_fq1: /home/work/wenhai/simulate_genome_data/PanTax/short_read/30species_low/sim-30species-low-ngs/2024.02.28_14.57.25_sample_0/reads/read1.fq
+      ngs_reads_fq2: /home/work/wenhai/simulate_genome_data/PanTax/short_read/30species_low/sim-30species-low-ngs/2024.02.28_14.57.25_sample_0/reads/read2.fq
+      ngs_read_length: 150
+      camisim_reads_mapping_path: 
+      pantax_db:

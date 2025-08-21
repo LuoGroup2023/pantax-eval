@@ -1,0 +1,41 @@
+# @package _global_
+tool:
+  _name_: kmcp
+  species_level:
+    db: 
+  strain_level:
+    db: /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/alternative_methods/kmcp/kmcpDB/kmcp_refs_k21.kmcp
+    tax2genome: /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/scripts/data/kraken2_strain_taxid.tsv
+    strain_taxonomy: /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/alternative_methods/kraken2/strain/kraken2_db/taxonomy
+  zymo1_strain_level:
+    db: /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/alternative_methods/kmcp/zymo1_strain/kmcpDB/kmcp_refs_k21.kmcp
+    tax2genome: /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/scripts/data/zymo1_strain_taxid.tsv
+    database_genomes_info: /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/multi_species_single_strain_zymo/genomes_info_sample.txt
+    strain_taxonomy: /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/alternative_methods/kraken2/zymo1_strain/kraken2_db/taxonomy
+  spiked_in_strain_level:
+    db: /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/alternative_methods/kmcp/spiked_in_666/kmcpDB/kmcp_refs_k21.kmcp
+    tax2genome: /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/scripts/data/spiked_in_666_strain_taxid.tsv
+    database_genomes_info: /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/single_species_strain_level_666/pantax/pantax_db/genomes_info.txt
+    strain_taxonomy: /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/alternative_methods/kraken2/spiked_in_666/kraken2_db/taxonomy
+  spiked_in_strain_level_species666_large_pangenome:
+    db: /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/alternative_methods/kmcp/kmcpDB/kmcp_refs_k21.kmcp
+    tax2genome: /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/scripts/data/kraken2_strain_taxid.tsv
+    strain_taxonomy: /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/alternative_methods/kraken2/strain/kraken2_db/taxonomy
+    designated_genomes_info: /home/work/wenhai/simulate_genome_data/PanTax_species_666_for_large_pangenome/scripts/genomes_info.txt
+  gtdb_strain_level:
+    db: /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/alternative_methods/kmcp/gtdb100/kmcpDB/kmcp_refs_k21.kmcp
+    tax2genome: /home/work/wenhai/metaprofiling/bacteria_GTDB/data/gtdb_taxonomy/strain_taxid.tsv
+    database_genomes_info: /home/work/wenhai/metaprofiling/bacteria_GTDB/data/genomes_info.txt
+    strain_taxonomy: /home/work/wenhai/metaprofiling/bacteria_GTDB/data/gtdb_taxonomy
+
+  # profile level tool can do
+  profile_level: 
+    - species_level
+    - strain_level
+    - zymo1_strain_level
+    - spiked_in_strain_level
+    - spiked_in_strain_level_species666_large_pangenome
+    - gtdb_strain_level
+  read_type:
+    - short
+    - long

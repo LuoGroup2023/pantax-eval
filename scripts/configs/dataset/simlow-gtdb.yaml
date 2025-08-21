@@ -1,0 +1,46 @@
+# @package _global_
+dataset:
+  _name_: simlow-gtdb
+  samplesID: 
+    short:
+      - ngs
+    long:
+      - hifi
+      - ontR9
+      - ontR10
+      - clr
+  true_abund: /home/work/wenhai/simulate_genome_data/PanTax/prepare/30_species/true_species_abundance.txt
+  strain_true_abund: /home/work/wenhai/simulate_genome_data/PanTax_GTDB_1w/prepare/simlow/distribution.txt
+  # ncbi_taxid2gtdb_taxid: /home/work/wenhai/simulate_genome_data/PanTax_GTDB_1w/prepare/simlow/sim_genomes_info.txt
+  reads_path:
+    ngs:
+      ngs_reads_fq: /home/work/wenhai/simulate_genome_data/PanTax_GTDB_1w/simlow/ngs/simlow_ngs/2025.01.20_01.11.15_sample_0/reads/anonymous_reads.fq.gz
+      ngs_reads_fq1: /home/work/wenhai/simulate_genome_data/PanTax_GTDB_1w/simlow/ngs/simlow_ngs/2025.01.20_01.11.15_sample_0/reads/read1.fq
+      ngs_reads_fq2: /home/work/wenhai/simulate_genome_data/PanTax_GTDB_1w/simlow/ngs/simlow_ngs/2025.01.20_01.11.15_sample_0/reads/read2.fq
+      ngs_read_length: 150
+      camisim_reads_mapping_path: 
+      pantax_db:
+    hifi:
+      hifi_reads_fq: /home/work/wenhai/simulate_genome_data/PanTax_GTDB_1w/simlow/hifi/simlow_hifi/2025.01.20_01.11.45_sample_0/reads/anonymous_reads.fq.gz
+      hifi_reads_fa:
+      hifi_read_length: 
+      camisim_reads_mapping_path: 
+      pantax_db:
+    ontR9:
+      ontR9_reads_fq: /home/work/wenhai/simulate_genome_data/PanTax_GTDB_1w/simlow/ontR941/simlow_ontR941/2025.01.21_15.37.49_sample_0/reads/anonymous_reads.fq.gz
+      ontR9_reads_fa: 
+      ontR9_read_length: 
+      camisim_reads_mapping_path: 
+      pantax_db:
+    ontR10:
+      ontR10_reads_fq: /home/work/wenhai/simulate_genome_data/PanTax_GTDB_1w/simlow/ontR104/simlow_ontR104/2025.01.20_21.47.25_sample_0/reads/anonymous_reads.fq.gz
+      ontR10_reads_fa:
+      ontR10_read_length: 
+      camisim_reads_mapping_path: 
+      pantax_db:
+    clr:
+      clr_reads_fq: /home/work/wenhai/simulate_genome_data/PanTax_GTDB_1w/simlow/clr/simlow_clr/2025.01.20_18.51.40_sample_0/reads/anonymous_reads.fq.gz
+      clr_reads_fa:
+      clr_read_length: 
+      camisim_reads_mapping_path: 
+      pantax_db:

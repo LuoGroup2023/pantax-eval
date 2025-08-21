@@ -1,0 +1,23 @@
+	Command being timed: "pantax -f /home/work/wenhai/PanTax/genomes_info/genomes_info_1282_species.txt -t 64 --debug --create"
+	User time (seconds): 91273.27
+	System time (seconds): 3739.98
+	Percent of CPU this job got: 3618%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 43:45.86
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 14429156
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 2472947
+	Minor (reclaiming a frame) page faults: 494084287
+	Voluntary context switches: 47049508
+	Involuntary context switches: 1435277
+	Swaps: 0
+	File system inputs: 11825224
+	File system outputs: 41136792
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

@@ -1,0 +1,24 @@
+\begin{table}[ht]
+    \renewcommand\arraystretch{1.}
+        \centering
+        \small
+        \setlength\tabcolsep{2pt} 
+        \begin{tabular}{p{2.cm} p{1.5cm}<{\centering} p{1.5cm}<{\centering} p{1.5cm}<{\centering} p{1.5cm}<{\centering} p{1.5cm}<{\centering} p{2cm}<{\centering} p{2cm}<{\centering}} 
+    
+        \toprule
+        Solvers & Precision & Recall & F1 score & AUPR & BC distance & CPU time(min) & Wall time(min) \\ 
+        \midrule
+        %% samplesID
+        \multicolumn{4}{l}{sim-low NGS} \\
+        \hline
+        Gurobi & 0.933 & 0.933 & 0.933 & 0.930 & 0.100 & 0.7 & 8.0 \\
+        Cbc & 0.933 & 0.933 & 0.933 & 0.930 & 0.100 & 1146.5 & 8563.6 \\
+        GLPK & 0.933 & 0.933 & 0.933 & 0.930 & 0.100 & 2363.5 & 18015.9 \\
+        HiGHS & 0.933 & 0.933 & 0.933 & 0.931 & 0.100 & 662.7 & 6036.4 \\
+   
+    \bottomrule
+        \end{tabular}
+        \vspace{1mm}
+        \caption{Benchmarking results of strain-level taxonomic profiling with different solvers. Except for GLPK, which is restricted to single-thread execution, all other solvers were configured to run with 64 threads.}
+        \label{tab:res_strain_solvers}
+    \end{table}

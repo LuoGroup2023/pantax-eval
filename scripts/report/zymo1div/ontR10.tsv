@@ -1,0 +1,4 @@
+tool_name	profile_level	dataset	sample_id	0	1	2	3	4	5	6	7	8
+ZymoRef1	strain_level	zymo1div	ontR10	0.467	0.875	0.609	0.745	0.277	0.069	0.593	0.766	0.383
+ZymoRef2	strain_level	zymo1div	ontR10	0.538	0.875	0.667	0.765	0.280	0.070	0.607	0.761	0.380
+ZymoRef3	strain_level	zymo1div	ontR10	0.538	0.875	0.667	0.729	0.280	0.068	0.587	0.755	0.377

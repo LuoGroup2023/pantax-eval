@@ -1,0 +1,9 @@
+tool	dataset	sample_id	cpu_time	wall_time	memory
+PanTax	omnivore_gut	hifi	1012.4	32.1	475.5
+PanTax(fast)	omnivore_gut	hifi	79.8	1.7	20.7
+Ganon	omnivore_gut	hifi	8.2	0.8	67.8
+KMCP	omnivore_gut	hifi	48.8	2.2	19.9
+Kraken2	omnivore_gut	hifi	567.3	19.7	52.8
+Centrifuge	omnivore_gut	hifi	53.0	6.9	357.9
+Centrifuger	omnivore_gut	hifi	155.5	6.2	77.8
+MetaMaps	omnivore_gut	hifi	37.0	5.8	417.2

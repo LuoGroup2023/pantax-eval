@@ -1,0 +1,8 @@
+/home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/alternative_methods_0208/tool/metaphlan4/metric_evaluate/precision_recall.py:53: DeprecationWarning: `trapz` is deprecated. Use `trapezoid` instead, or one of the numerical integration functions in `scipy.integrate`.
+  aupr1 = abs(np.trapz(precision_list, recall_list))
+/home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/alternative_methods_0208/tool/metaphlan4/metric_evaluate/precision_recall.py:82: DeprecationWarning: `trapz` is deprecated. Use `trapezoid` instead, or one of the numerical integration functions in `scipy.integrate`.
+  aupr2 = abs(np.trapz(precision_list, recall_list))
+/home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/alternative_methods_0208/tool/metaphlan4/metric_evaluate/precision_recall.py:53: DeprecationWarning: `trapz` is deprecated. Use `trapezoid` instead, or one of the numerical integration functions in `scipy.integrate`.
+  aupr1 = abs(np.trapz(precision_list, recall_list))
+/home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/alternative_methods_0208/tool/metaphlan4/metric_evaluate/precision_recall.py:82: DeprecationWarning: `trapz` is deprecated. Use `trapezoid` instead, or one of the numerical integration functions in `scipy.integrate`.
+  aupr2 = abs(np.trapz(precision_list, recall_list))

@@ -1,0 +1,14 @@
+# @package _global_
+report:
+  _name_: general_report
+  model_tex: 
+    one: 
+      - configs/report/report_model/report1_1.tex
+      - configs/report/report_model/report1_2.tex
+      - configs/report/report_model/report1_3.tex
+    two:
+      - configs/report/report_model/report2_1.tex
+      - configs/report/report_model/report2_2.tex
+      - configs/report/report_model/report2_3.tex
+  profile_level: strain_level
+  dataset_register: 

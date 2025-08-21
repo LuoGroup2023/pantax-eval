@@ -1,0 +1,6 @@
+profile_level	dataset	sample_id	tool_name	0	1	2	3	4	5	6	7	8
+strain_level	Refdiv	clr	ref2	1.000	1.000	1.000	1.000	0.013	0.001	0.123	0.079	0.039
+strain_level	Refdiv	clr	ref3	1.000	1.000	1.000	1.000	0.013	0.001	0.124	0.080	0.040
+strain_level	Refdiv	clr	ref1	1.000	1.000	1.000	1.000	0.013	0.001	0.112	0.079	0.039
+strain_level	Refdiv	clr	ref4	0.984	1.000	0.992	1.000	0.015	0.001	0.123	0.085	0.042
+strain_level	Refdiv	clr	ref5	1.000	0.967	0.983	0.967	0.018	0.002	0.155	0.096	0.048

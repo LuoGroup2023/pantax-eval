@@ -1,0 +1,12 @@
+# @package _global_
+tool:
+  _name_: strainscan
+  spiked_in_strain_level:
+    db: /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/alternative_methods/strainscan/spiked_in_666/666_strainscan_db
+    database_genomes_info: /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/single_species_strain_level_666/pantax/pantax_db/genomes_info.txt
+  # profile level tool can do
+  profile_level: 
+    - spiked_in_strain_level
+  
+  read_type:
+    - short

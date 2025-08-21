@@ -1,0 +1,44 @@
+# @package _global_
+defaults:
+  - /time_report/database_build_time: ref13404
+
+specified_time_path: true
+report:
+  _name_: general_tgs_time
+  model_tex: configs/time_report/report_model/time_report_model.tex
+  profile_level: strain_level
+  query_dataset: ["rmhost","omnivore_gut"]
+  type: TGS
+  samplesID: 
+    - hifi
+    - clr
+    - ontR9
+    - ontR10
+    - ont
+  tools:
+    - PanTax
+    - PanTax(fast)
+    - Ganon
+    - KMCP
+    - Kraken2
+    - Centrifuge
+    - Centrifuger
+    - MetaMaps
+  tools_report:
+    PanTax-rmhost-ont: [/home/work/gyli/real_human_gut/pantax/strain_level/ont_mode0/tgs/pantax_species_query_time.log,/home/work/gyli/real_human_gut/pantax/strain_level/ont_mode0/tgs/pantax_strain_query_time.log]
+    PanTax(fast)-rmhost-ont: [/home/work/gyli/real_human_gut/pantax/strain_level/ont_mode1/tgs/create_db_time.log,-,/home/work/gyli/real_human_gut/pantax/strain_level/ont_mode1/tgs/pantax_species_query_time.log,/home/work/gyli/real_human_gut/pantax/strain_level/ont_mode1/tgs/pantax_strain_query_time.log]
+    Ganon-rmhost-ont: /home/work/gyli/real_dataset/ont/ont_head/minimap2_nohuman/rmhost/rmhost_fq/strain_level/ganon/query_time.log
+    KMCP-rmhost-ont: /home/work/gyli/real_dataset/ont/ont_head/minimap2_nohuman/rmhost/rmhost_fq/strain_level/kmcp/query_time.log
+    Kraken2-rmhost-ont: /home/work/gyli/real_dataset/ont/ont_head/minimap2_nohuman/rmhost/rmhost_fq/strain_level/kraken2/query_time.log
+    Centrifuge-rmhost-ont: /home/work/gyli/real_dataset/ont/ont_head/minimap2_nohuman/rmhost/rmhost_fq/strain_level/centrifuge/query_time.log
+    Centrifuger-rmhost-ont: /home/work/gyli/real_dataset/ont/ont_head/minimap2_nohuman/rmhost/rmhost_fq/strain_level/centrifuger/query_time.log
+    MetaMaps-rmhost-ont: [/home/work/gyli/real_dataset/ont/ont_head/minimap2_nohuman/rmhost/rmhost_fq/strain_level/metamaps/query_time1.log,/home/work/gyli/real_dataset/ont/ont_head/minimap2_nohuman/rmhost/rmhost_fq/strain_level/metamaps/query_time2.log]
+    PanTax-omnivore_gut-hifi: [/home/work/gyli/real_human_gut/pantax/strain_level/hifi_mode0/tgs/pantax_species_query_time.log,/home/work/gyli/real_human_gut/pantax/strain_level/hifi_mode0/tgs/pantax_strain_query_time.log]
+    PanTax(fast)-omnivore_gut-hifi: [/home/work/gyli/real_human_gut/pantax/strain_level/hifi_mode1/tgs/create_db_time.log,-,/home/work/gyli/real_human_gut/pantax/strain_level/hifi_mode1/tgs/pantax_species_query_time.log,/home/work/gyli/real_human_gut/pantax/strain_level/hifi_mode1/tgs/pantax_strain_query_time.log]
+    Ganon-omnivore_gut-hifi: /home/work/gyli/real_dataset/hifi/strain_level/ganon/query_time.log
+    KMCP-omnivore_gut-hifi: /home/work/gyli/real_dataset/hifi/strain_level/kmcp/query_time.log
+    Kraken2-omnivore_gut-hifi: /home/work/gyli/real_dataset/hifi/strain_level/kraken2/query_time.log
+    Centrifuge-omnivore_gut-hifi: /home/work/gyli/real_dataset/hifi/strain_level/centrifuge/query_time.log
+    Centrifuger-omnivore_gut-hifi: /home/work/gyli/real_dataset/hifi/strain_level/centrifuger/query_time.log
+    MetaMaps-omnivore_gut-hifi: [/home/work/gyli/real_dataset/hifi/strain_level/metamaps/query_time1.log,/home/work/gyli/real_dataset/hifi/strain_level/metamaps/query_time2.log]
+  report_name: real_tgs_time

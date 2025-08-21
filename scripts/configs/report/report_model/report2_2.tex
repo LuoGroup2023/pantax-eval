@@ -1,0 +1,24 @@
+
+\begin{table}[ht]
+\renewcommand\arraystretch{1.}
+    \centering
+    \small
+    \setlength\tabcolsep{2pt} 
+    \begin{tabular}{p{2.cm}|p{1.5cm}<{\centering} p{1.5cm}<{\centering} p{1.5cm}<{\centering} p{1.5cm}<{\centering} | p{1.5cm}<{\centering} p{1.5cm}<{\centering} p{1.5cm}<{\centering} p{1.cm}<{\centering} }
+
+    \toprule
+    Methods & \multicolumn{4}{c|}{sim-low} & \multicolumn{4}{c}{sim-high}\\
+    \hline
+    & AFE & RFE & L1 distance & L2 distance & AFE & RFE & L1 distance & L2 distance \\
+    \midrule
+    %% samplesID
+    \multicolumn{4}{l}{$samplesID$} \\
+    %% tool
+    \hline     
+\bottomrule
+    \end{tabular}
+    \vspace{1mm}
+    \caption{Benchmarking results of strain-level taxonomic classification on the dataset $dataset$. Note that the best score is marked in bold, and the second best score is marked in italics. }
+    \label{tab:res_strain_$dataset$}
+\end{table}
+        

@@ -1,0 +1,13 @@
+# @package _global_
+defaults:
+  - _self_
+  - experiment: profiling_work
+
+rebuild: False
+isolate: False
+
+hydra:
+  run:
+    dir: ./alternative_methods_0208_auto_log/${now:%Y-%m-%d}/${now:%H-%M-%S-%f}
+  job:
+    chdir: false

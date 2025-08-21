@@ -1,0 +1,7 @@
+tool_name	profile_level	dataset	sample_id	0	1	2	3	4	5	6	7	8
+PanTax (fast)	strain_level	simhigh-gtdb-mut0.01	ontR9	1.000	0.914	0.955	0.914	0.011	0.000	0.208	0.198	0.099
+Ganon	strain_level	simhigh-gtdb-mut0.01	ontR9	0.953	0.590	0.729	0.572	0.033	0.001	0.999	0.999	0.998
+KMCP	strain_level	simhigh-gtdb-mut0.01	ontR9	1.000	0.001	0.002	0.001	0.999	0.002	1.951	1.998	0.999
+Kraken2	strain_level	simhigh-gtdb-mut0.01	ontR9	0.180	1.000	0.304	1.000	0.009	0.000	0.223	0.246	0.123
+Centrifuge	strain_level	simhigh-gtdb-mut0.01	ontR9	0.085	1.000	0.157	1.000	0.006	0.000	0.133	0.164	0.082
+Centrifuger	strain_level	simhigh-gtdb-mut0.01	ontR9	0.362	1.000	0.532	1.000	0.009	0.000	0.217	0.260	0.130

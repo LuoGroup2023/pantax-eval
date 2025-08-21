@@ -1,0 +1,6 @@
+tool_name	profile_level	dataset	sample_id	0	1	2	3	4	5	6	7	8
+SimRef1	strain_level	refdiv	ngs	1.000	1.000	1.000	1.000	0.006	0.001	0.060	0.036	0.018
+SimRef2	strain_level	refdiv	ngs	1.000	1.000	1.000	1.000	0.007	0.001	0.063	0.039	0.020
+SimRef3	strain_level	refdiv	ngs	1.000	1.000	1.000	1.000	0.007	0.001	0.064	0.040	0.020
+SimRef4	strain_level	refdiv	ngs	1.000	1.000	1.000	1.000	0.008	0.001	0.064	0.043	0.022
+SimRef5	strain_level	refdiv	ngs	0.984	1.000	0.992	1.000	0.035	0.002	0.101	0.110	0.055

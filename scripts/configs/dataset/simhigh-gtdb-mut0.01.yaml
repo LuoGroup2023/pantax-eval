@@ -1,0 +1,46 @@
+# @package _global_
+dataset:
+  _name_: simhigh-gtdb-mut0.01
+  samplesID: 
+    short:
+      - ngs
+    long:
+      - hifi
+      - ontR9
+      - ontR10
+      - clr
+  true_abund: /home/work/wenhai/simulate_genome_data/PanTax/prepare/30_species/true_species_abundance.txt
+  strain_true_abund: /home/work/wenhai/simulate_genome_data/PanTax_GTDB_1w/prepare/simhigh/distribution.txt
+  # ncbi_taxid2gtdb_taxid: /home/work/wenhai/simulate_genome_data/PanTax_GTDB_1w/prepare/simlow/sim_genomes_info.txt
+  reads_path:
+    ngs:
+      ngs_reads_fq: /home/work/wenhai/simulate_genome_data/PanTax_GTDB_1w/simhigh_mut0.01/ngs/simhigh_mut0.01_ngs/2025.02.28_23.39.33_sample_0/reads/anonymous_reads.fq.gz
+      ngs_reads_fq1: /home/work/wenhai/simulate_genome_data/PanTax_GTDB_1w/simhigh_mut0.01/ngs/simhigh_mut0.01_ngs/2025.02.28_23.39.33_sample_0/reads/read1.fq
+      ngs_reads_fq2: /home/work/wenhai/simulate_genome_data/PanTax_GTDB_1w/simhigh_mut0.01/ngs/simhigh_mut0.01_ngs/2025.02.28_23.39.33_sample_0/reads/read2.fq
+      ngs_read_length: 150
+      camisim_reads_mapping_path: 
+      pantax_db:
+    hifi:
+      hifi_reads_fq: /home/work/wenhai/simulate_genome_data/PanTax_GTDB_1w/simhigh_mut0.01/hifi/simhigh_mut0.01_hifi/2025.02.28_23.36.57_sample_0/reads/anonymous_reads.fq.gz
+      hifi_reads_fa:
+      hifi_read_length: 
+      camisim_reads_mapping_path: 
+      pantax_db:
+    ontR9:
+      ontR9_reads_fq: /home/work/wenhai/simulate_genome_data/PanTax_GTDB_1w/simhigh_mut0.01/ontR941/simhigh_mut0.01_ontR941/2025.02.28_23.40.16_sample_0/reads/anonymous_reads.fq.gz
+      ontR9_reads_fa: 
+      ontR9_read_length: 
+      camisim_reads_mapping_path: 
+      pantax_db:
+    ontR10:
+      ontR10_reads_fq: /home/work/wenhai/simulate_genome_data/PanTax_GTDB_1w/simhigh_mut0.01/ontR104/simhigh_mut0.01_ontR104/2025.03.03_01.49.48_sample_0/reads/anonymous_reads.fq.gz
+      ontR10_reads_fa:
+      ontR10_read_length: 
+      camisim_reads_mapping_path: 
+      pantax_db:
+    clr:
+      clr_reads_fq: /home/work/wenhai/simulate_genome_data/PanTax_GTDB_1w/simhigh_mut0.01/clr/simhigh_mut0.01_clr/2025.02.28_23.39.14_sample_0/reads/anonymous_reads.fq.gz
+      clr_reads_fa:
+      clr_read_length: 
+      camisim_reads_mapping_path: 
+      pantax_db:

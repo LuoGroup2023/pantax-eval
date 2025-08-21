@@ -1,0 +1,217 @@
+Settings:
+  Output files: "/home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/alternative_methods/centrifuge/strain/centrifuge_db/centrifugeDB.*.cf"
+  Line rate: 7 (line is 128 bytes)
+  Lines per side: 1 (side is 128 bytes)
+  Offset rate: 4 (one in 16)
+  FTable chars: 10
+  Strings: unpacked
+  Local offset rate: 3 (one in 8)
+  Local fTable chars: 6
+  Max bucket size: default
+  Max bucket size, sqrt multiplier: default
+  Max bucket size, len divisor: 4
+  Difference-cover sample period: 1024
+  Endianness: little
+  Actual local endianness: little
+  Sanity checking: disabled
+  Assertions: disabled
+  Random seed: 0
+  Sizeofs: void*:8, int:4, long:8, size_t:8
+Input files DNA, FASTA:
+  reference_genomes.fna
+Reading reference sizes
+  Time reading reference sizes: 00:05:42
+Calculating joined length
+Writing header
+Reserving space for joined string
+Joining reference sequences
+  Time to join reference sequences: 00:04:56
+bmax according to bmaxDivN setting: 914040605
+Using parameters --bmax 685530454 --dcv 1024
+  Doing ahead-of-time memory usage test
+  Ran out of memory; automatically trying more memory-economical parameters.
+Using parameters --bmax 514147841 --dcv 2048
+  Doing ahead-of-time memory usage test
+  Ran out of memory; automatically trying more memory-economical parameters.
+Using parameters --bmax 385610881 --dcv 4096
+  Doing ahead-of-time memory usage test
+  Ran out of memory; automatically trying more memory-economical parameters.
+Using parameters --bmax 289208161 --dcv 4096
+  Doing ahead-of-time memory usage test
+  Ran out of memory; automatically trying more memory-economical parameters.
+Using parameters --bmax 216906121 --dcv 4096
+  Doing ahead-of-time memory usage test
+  Ran out of memory; automatically trying more memory-economical parameters.
+Using parameters --bmax 162679591 --dcv 4096
+  Doing ahead-of-time memory usage test
+  Ran out of memory; automatically trying more memory-economical parameters.
+Using parameters --bmax 122009694 --dcv 4096
+  Doing ahead-of-time memory usage test
+  Ran out of memory; automatically trying more memory-economical parameters.
+Using parameters --bmax 91507271 --dcv 4096
+  Doing ahead-of-time memory usage test
+  Ran out of memory; automatically trying more memory-economical parameters.
+Using parameters --bmax 68630454 --dcv 4096
+  Doing ahead-of-time memory usage test
+  Ran out of memory; automatically trying more memory-economical parameters.
+Using parameters --bmax 51472841 --dcv 4096
+  Doing ahead-of-time memory usage test
+  Ran out of memory; automatically trying more memory-economical parameters.
+Using parameters --bmax 38604631 --dcv 4096
+  Doing ahead-of-time memory usage test
+  Ran out of memory; automatically trying more memory-economical parameters.
+Using parameters --bmax 28953474 --dcv 4096
+  Doing ahead-of-time memory usage test
+  Ran out of memory; automatically trying more memory-economical parameters.
+Using parameters --bmax 21715106 --dcv 4096
+  Doing ahead-of-time memory usage test
+  Ran out of memory; automatically trying more memory-economical parameters.
+Using parameters --bmax 16286330 --dcv 4096
+  Doing ahead-of-time memory usage test
+  Ran out of memory; automatically trying more memory-economical parameters.
+Using parameters --bmax 12214748 --dcv 4096
+  Doing ahead-of-time memory usage test
+  Ran out of memory; automatically trying more memory-economical parameters.
+Using parameters --bmax 9161061 --dcv 4096
+  Doing ahead-of-time memory usage test
+  Ran out of memory; automatically trying more memory-economical parameters.
+Using parameters --bmax 6870796 --dcv 4096
+  Doing ahead-of-time memory usage test
+  Ran out of memory; automatically trying more memory-economical parameters.
+Using parameters --bmax 5153097 --dcv 4096
+  Doing ahead-of-time memory usage test
+  Ran out of memory; automatically trying more memory-economical parameters.
+Using parameters --bmax 3864823 --dcv 4096
+  Doing ahead-of-time memory usage test
+  Ran out of memory; automatically trying more memory-economical parameters.
+Using parameters --bmax 2898618 --dcv 4096
+  Doing ahead-of-time memory usage test
+  Ran out of memory; automatically trying more memory-economical parameters.
+Using parameters --bmax 2173964 --dcv 4096
+  Doing ahead-of-time memory usage test
+  Ran out of memory; automatically trying more memory-economical parameters.
+Using parameters --bmax 1630473 --dcv 4096
+  Doing ahead-of-time memory usage test
+  Ran out of memory; automatically trying more memory-economical parameters.
+Using parameters --bmax 1222855 --dcv 4096
+  Doing ahead-of-time memory usage test
+  Ran out of memory; automatically trying more memory-economical parameters.
+Using parameters --bmax 917142 --dcv 4096
+  Doing ahead-of-time memory usage test
+  Ran out of memory; automatically trying more memory-economical parameters.
+Using parameters --bmax 687857 --dcv 4096
+  Doing ahead-of-time memory usage test
+  Ran out of memory; automatically trying more memory-economical parameters.
+Using parameters --bmax 515893 --dcv 4096
+  Doing ahead-of-time memory usage test
+  Ran out of memory; automatically trying more memory-economical parameters.
+Using parameters --bmax 386920 --dcv 4096
+  Doing ahead-of-time memory usage test
+  Ran out of memory; automatically trying more memory-economical parameters.
+Using parameters --bmax 290190 --dcv 4096
+  Doing ahead-of-time memory usage test
+  Ran out of memory; automatically trying more memory-economical parameters.
+Using parameters --bmax 217643 --dcv 4096
+  Doing ahead-of-time memory usage test
+  Ran out of memory; automatically trying more memory-economical parameters.
+Using parameters --bmax 163233 --dcv 4096
+  Doing ahead-of-time memory usage test
+  Ran out of memory; automatically trying more memory-economical parameters.
+Using parameters --bmax 122425 --dcv 4096
+  Doing ahead-of-time memory usage test
+  Ran out of memory; automatically trying more memory-economical parameters.
+Using parameters --bmax 91819 --dcv 4096
+  Doing ahead-of-time memory usage test
+  Ran out of memory; automatically trying more memory-economical parameters.
+Using parameters --bmax 68865 --dcv 4096
+  Doing ahead-of-time memory usage test
+  Ran out of memory; automatically trying more memory-economical parameters.
+Using parameters --bmax 51649 --dcv 4096
+  Doing ahead-of-time memory usage test
+  Ran out of memory; automatically trying more memory-economical parameters.
+Using parameters --bmax 38737 --dcv 4096
+  Doing ahead-of-time memory usage test
+  Ran out of memory; automatically trying more memory-economical parameters.
+Using parameters --bmax 29053 --dcv 4096
+  Doing ahead-of-time memory usage test
+  Ran out of memory; automatically trying more memory-economical parameters.
+Using parameters --bmax 21790 --dcv 4096
+  Doing ahead-of-time memory usage test
+  Ran out of memory; automatically trying more memory-economical parameters.
+Using parameters --bmax 16343 --dcv 4096
+  Doing ahead-of-time memory usage test
+  Ran out of memory; automatically trying more memory-economical parameters.
+Using parameters --bmax 12258 --dcv 4096
+  Doing ahead-of-time memory usage test
+  Ran out of memory; automatically trying more memory-economical parameters.
+Using parameters --bmax 9194 --dcv 4096
+  Doing ahead-of-time memory usage test
+  Ran out of memory; automatically trying more memory-economical parameters.
+Using parameters --bmax 6896 --dcv 4096
+  Doing ahead-of-time memory usage test
+  Ran out of memory; automatically trying more memory-economical parameters.
+Using parameters --bmax 5172 --dcv 4096
+  Doing ahead-of-time memory usage test
+  Ran out of memory; automatically trying more memory-economical parameters.
+Using parameters --bmax 3879 --dcv 4096
+  Doing ahead-of-time memory usage test
+  Ran out of memory; automatically trying more memory-economical parameters.
+Using parameters --bmax 2910 --dcv 4096
+  Doing ahead-of-time memory usage test
+  Ran out of memory; automatically trying more memory-economical parameters.
+Using parameters --bmax 2183 --dcv 4096
+  Doing ahead-of-time memory usage test
+  Ran out of memory; automatically trying more memory-economical parameters.
+Using parameters --bmax 1638 --dcv 4096
+  Doing ahead-of-time memory usage test
+  Ran out of memory; automatically trying more memory-economical parameters.
+Using parameters --bmax 1229 --dcv 4096
+  Doing ahead-of-time memory usage test
+  Ran out of memory; automatically trying more memory-economical parameters.
+Using parameters --bmax 922 --dcv 4096
+  Doing ahead-of-time memory usage test
+  Ran out of memory; automatically trying more memory-economical parameters.
+Using parameters --bmax 692 --dcv 4096
+  Doing ahead-of-time memory usage test
+  Ran out of memory; automatically trying more memory-economical parameters.
+Using parameters --bmax 519 --dcv 4096
+  Doing ahead-of-time memory usage test
+  Ran out of memory; automatically trying more memory-economical parameters.
+Using parameters --bmax 390 --dcv 4096
+  Doing ahead-of-time memory usage test
+  Ran out of memory; automatically trying more memory-economical parameters.
+Using parameters --bmax 293 --dcv 4096
+  Doing ahead-of-time memory usage test
+  Ran out of memory; automatically trying more memory-economical parameters.
+Using parameters --bmax 220 --dcv 4096
+  Doing ahead-of-time memory usage test
+  Ran out of memory; automatically trying more memory-economical parameters.
+Using parameters --bmax 165 --dcv 4096
+  Doing ahead-of-time memory usage test
+  Ran out of memory; automatically trying more memory-economical parameters.
+Using parameters --bmax 124 --dcv 4096
+  Doing ahead-of-time memory usage test
+  Ran out of memory; automatically trying more memory-economical parameters.
+Using parameters --bmax 93 --dcv 4096
+  Doing ahead-of-time memory usage test
+  Ran out of memory; automatically trying more memory-economical parameters.
+Using parameters --bmax 70 --dcv 4096
+  Doing ahead-of-time memory usage test
+  Ran out of memory; automatically trying more memory-economical parameters.
+Using parameters --bmax 53 --dcv 4096
+  Doing ahead-of-time memory usage test
+  Ran out of memory; automatically trying more memory-economical parameters.
+Using parameters --bmax 40 --dcv 4096
+  Doing ahead-of-time memory usage test
+  Ran out of memory; automatically trying more memory-economical parameters.
+Using parameters --bmax 30 --dcv 4096
+  Doing ahead-of-time memory usage test
+  Ran out of memory; automatically trying more memory-economical parameters.
+Could not find approrpiate bmax/dcv settings for building this index.
+Switching to a packed string representation.
+Reading reference sizes
+  Time reading reference sizes: 00:06:13
+Calculating joined length
+Writing header
+Reserving space for joined string
+Joining reference sequences

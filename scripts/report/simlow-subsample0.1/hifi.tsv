@@ -1,0 +1,7 @@
+tool_name	profile_level	dataset	sample_id	0	1	2	3	4	5	6	7	8
+Ganon	strain_level	simlow-subsample0.1	hifi	0.679	0.917	0.780	0.884	0.048	0.003	0.256	0.269	0.134
+KMCP	strain_level	simlow-subsample0.1	hifi	1.000	0.050	0.095	0.050	0.559	0.030	2.136	1.823	0.911
+Kraken2	strain_level	simlow-subsample0.1	hifi	0.463	0.933	0.619	0.913	0.072	0.004	0.321	0.275	0.138
+Centrifuge	strain_level	simlow-subsample0.1	hifi	0.609	0.933	0.737	0.923	0.048	0.003	0.195	0.215	0.107
+Centrifuger	strain_level	simlow-subsample0.1	hifi	0.615	0.933	0.742	0.922	0.034	0.002	0.195	0.181	0.091
+MetaMaps	strain_level	simlow-subsample0.1	hifi	0.700	0.933	0.800	0.919	0.033	0.002	0.175	0.167	0.083

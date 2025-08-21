@@ -1,0 +1,24 @@
+# @package _global_
+dataset:
+  _name_: spiked_in_three
+  samplesID: 
+    short:
+      - ngs
+    long:
+      - hifi
+  true_abund: 
+  strain_true_abund: /home/work/wenhai/simulate_genome_data/PanTax_species_666/three/metadata/distribution.txt
+  reads_path:
+    ngs:
+      ngs_reads_fq: 
+      ngs_reads_fq1: /home/work/wenhai/simulate_genome_data/PanTax_species_666/three/sim_species666_three_ngs/2024.12.14_15.46.59_sample_0/reads/shuffle_spiked_in_ngs_1.fq
+      ngs_reads_fq2: /home/work/wenhai/simulate_genome_data/PanTax_species_666/three/sim_species666_three_ngs/2024.12.14_15.46.59_sample_0/reads/shuffle_spiked_in_ngs_2.fq
+      ngs_read_length: 150
+      camisim_reads_mapping_path: 
+      pantax_db: /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/single_species_strain_level_666/pantax/pantax_db
+    hifi:
+      hifi_reads_fq: 
+      hifi_reads_fa:
+      hifi_read_length: 
+      camisim_reads_mapping_path: 
+      pantax_db: /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/single_species_strain_level_666/pantax/pantax_db

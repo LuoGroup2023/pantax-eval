@@ -1,0 +1,46 @@
+# @package _global_
+dataset:
+  _name_: simhigh
+  samplesID: 
+    short:
+      - ngs
+    long:
+      - hifi
+      - ontR9
+      - ontR10
+      - clr
+  true_abund: /home/work/wenhai/simulate_genome_data/PanTax/prepare/1000strains/true_species_abundance.txt
+  strain_true_abund: /home/work/wenhai/simulate_genome_data/PanTax/prepare/1000strains/distribution.txt
+  strain_true_cov: /home/work/wenhai/simulate_genome_data/PanTax/short_read/1000strains/sim_cov.tsv
+  reads_path:
+    ngs:
+      ngs_reads_fq: /home/work/wenhai/simulate_genome_data/PanTax/short_read/1000strains/1000_strains_ge1_ngs/2024.02.03_21.19.31_sample_0/reads/anonymous_reads.fq.gz
+      ngs_reads_fq1: /home/work/wenhai/simulate_genome_data/PanTax/short_read/1000strains/1000_strains_ge1_ngs/2024.02.03_21.19.31_sample_0/reads/read1.fq
+      ngs_reads_fq2: /home/work/wenhai/simulate_genome_data/PanTax/short_read/1000strains/1000_strains_ge1_ngs/2024.02.03_21.19.31_sample_0/reads/read2.fq
+      ngs_read_length: 150
+      camisim_reads_mapping_path: /home/work/wenhai/simulate_genome_data/PanTax/short_read/1000strains/1000_strains_ge1_ngs/2024.02.03_21.19.31_sample_0/reads/reads_mapping.tsv
+      pantax_db:
+    hifi:
+      hifi_reads_fq: /home/work/wenhai/simulate_genome_data/PanTax/long_read/new_1000strains/sim-1000strains-ge1-hifi/2024.02.04_21.23.26_sample_0/reads/anonymous_reads.fq.gz
+      hifi_reads_fa:
+      hifi_read_length: /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/long_alternative_methods/read_length/1000strains_hifi_read_length.txt
+      camisim_reads_mapping_path: /home/work/wenhai/simulate_genome_data/PanTax/long_read/new_1000strains/sim-1000strains-ge1-hifi/2024.02.04_21.23.26_sample_0/reads/reads_mapping.tsv.gz
+      pantax_db:
+    ontR9:
+      ontR9_reads_fq: /home/work/wenhai/simulate_genome_data/PanTax/long_read/new_1000strains/sim-1000strains-ge1-ontR941raw/2024.06.08_23.57.40_sample_0/reads/anonymous_reads.fq
+      ontR9_reads_fa: 
+      ontR9_read_length: /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/long_alternative_methods/read_length/1000strains_ontR941_read_length.txt
+      camisim_reads_mapping_path: /home/work/wenhai/simulate_genome_data/PanTax/long_read/new_1000strains/sim-1000strains-ge1-ontR941raw/2024.06.08_23.57.40_sample_0/reads/reads_mapping.tsv.gz
+      pantax_db:
+    ontR10:
+      ontR10_reads_fq: /home/work/wenhai/simulate_genome_data/PanTax/long_read/new_1000strains/sim-1000strains-ge1-ontR104raw/2024.02.04_16.11.39_sample_0/reads/anonymous_reads.fq.gz
+      ontR10_reads_fa:
+      ontR10_read_length: /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/long_alternative_methods/read_length/1000strains_ontR104_read_length.txt
+      camisim_reads_mapping_path: /home/work/wenhai/simulate_genome_data/PanTax/long_read/new_1000strains/sim-1000strains-ge1-ontR104raw/2024.02.04_16.11.39_sample_0/reads/reads_mapping.tsv.gz
+      pantax_db:
+    clr:
+      clr_reads_fq: /home/work/wenhai/simulate_genome_data/PanTax/long_read/new_1000strains/sim-1000strains-ge1-CLR/2024.02.03_21.18.55_sample_0/reads/anonymous_reads.fq.gz
+      clr_reads_fa:
+      clr_read_length: /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/long_alternative_methods/read_length/1000strains_CLR_read_length.txt
+      camisim_reads_mapping_path: /home/work/wenhai/simulate_genome_data/PanTax/long_read/new_1000strains/sim-1000strains-ge1-CLR/2024.02.03_21.18.55_sample_0/reads/reads_mapping.tsv.gz
+      pantax_db:

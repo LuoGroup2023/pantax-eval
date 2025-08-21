@@ -1,0 +1,45 @@
+# @package _global_
+dataset:
+  _name_: simlow-subsample0.5
+  samplesID: 
+    short:
+      - ngs
+    long:
+      - hifi
+      - ontR9
+      - ontR10
+      - clr
+  true_abund: /home/work/wenhai/simulate_genome_data/PanTax/prepare/30_species/true_species_abundance.txt
+  strain_true_abund: /home/work/wenhai/simulate_genome_data/PanTax/short_read/30_species/sim-30species-ngs/distributions/distribution_0.txt
+  reads_path:
+    ngs:
+      ngs_reads_fq: 
+      ngs_reads_fq1: /home/work/wenhai/simulate_genome_data/PanTax/short_read/30_species/sim-30species-ngs/2024.02.02_23.36.27_sample_0/reads/sub5_read1.fq
+      ngs_reads_fq2: /home/work/wenhai/simulate_genome_data/PanTax/short_read/30_species/sim-30species-ngs/2024.02.02_23.36.27_sample_0/reads/sub5_read2.fq
+      ngs_read_length: 150
+      camisim_reads_mapping_path: 
+      pantax_db:
+    hifi:
+      hifi_reads_fq: /home/work/wenhai/simulate_genome_data/PanTax/long_read/30_species/sim-30species-hifi-ge1/2024.02.02_23.37.51_sample_0/reads/sub5_read.fq
+      hifi_reads_fa:
+      hifi_read_length: 
+      camisim_reads_mapping_path: 
+      pantax_db:
+    ontR9:
+      ontR9_reads_fq: /home/work/wenhai/simulate_genome_data/PanTax/long_read/30_species/sim-30species-ontR941raw-ge1/2024.02.08_00.51.21_sample_0/reads/sub5_read.fq
+      ontR9_reads_fa: 
+      ontR9_read_length: 
+      camisim_reads_mapping_path: 
+      pantax_db:
+    ontR10:
+      ontR10_reads_fq: /home/work/wenhai/simulate_genome_data/PanTax/long_read/30_species/sim-30species-ontR104raw-ge1/2024.02.03_00.36.03_sample_0/reads/sub5_read.fq
+      ontR10_reads_fa:
+      ontR10_read_length: 
+      camisim_reads_mapping_path: 
+      pantax_db:
+    clr:
+      clr_reads_fq: /home/work/wenhai/simulate_genome_data/PanTax/long_read/30_species/sim-30species-CLR-ge1/2024.02.03_01.07.37_sample_0/reads/sub5_read.fq
+      clr_reads_fa:
+      clr_read_length: 
+      camisim_reads_mapping_path: 
+      pantax_db:

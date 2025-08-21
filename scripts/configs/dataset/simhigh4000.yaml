@@ -1,0 +1,28 @@
+# @package _global_
+dataset:
+  _name_: simhigh4000
+  samplesID: 
+    short:
+      - ngs
+    long:
+      - hifi
+      # - ontR9
+      # - ontR10
+      # - clr
+  true_abund: 
+  strain_true_abund: /home/work/wenhai/simulate_genome_data/PanTax_larger_dst/prepare/scripts/simhigh4000/distribution.txt
+  strain_true_cov: 
+  reads_path:
+    ngs:
+      ngs_reads_fq: /home/work/wenhai/simulate_genome_data/PanTax_larger_dst/simhigh4000/ngs/simhigh4000-ngs/2025.07.31_16.22.49_sample_0/reads/anonymous_reads.fq.gz
+      ngs_reads_fq1: 
+      ngs_reads_fq2: 
+      ngs_read_length: 150
+      camisim_reads_mapping_path: 
+      pantax_db:
+    hifi:
+      hifi_reads_fq: /home/work/wenhai/simulate_genome_data/PanTax_larger_dst/simhigh4000/hifi/simhigh4000-hifi/2025.07.31_16.22.49_sample_0/reads/anonymous_reads.fq.gz
+      hifi_reads_fa:
+      hifi_read_length: 
+      camisim_reads_mapping_path: 
+      pantax_db:

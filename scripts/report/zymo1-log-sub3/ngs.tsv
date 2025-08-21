@@ -1,0 +1,4 @@
+tool_name	profile_level	dataset	sample_id	0	1	2	3	4	5	6	7	8
+PanTax	strain_level	zymo1-log-sub3	ngs	0.600	0.375	0.462	0.339	0.034	0.005	0.652	0.057	0.029
+PanTax (fast)	strain_level	zymo1-log-sub3	ngs	1.000	0.375	0.545	0.375	0.009	0.002	0.656	0.014	0.007
+KMCP	strain_level	zymo1-log-sub3	ngs	1.000	0.625	0.769	0.625	0.009	0.002	0.444	0.013	0.007

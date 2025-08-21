@@ -1,0 +1,19 @@
+# @package _global_
+tool:
+  _name_: pantax
+  branch: sylph-pantax-95
+  species_level:
+    db: 
+  strain_level:
+    db: /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/alternative_methods_0208/tool/sylph/simhigh_strain/sylph_pantax_db_thresold95
+    database_genomes_info: ${tool.strain_level.db}/genomes_info.txt
+  zymo1_strain_level:
+    db: 
+    database_genomes_info: 
+  # profile level tool can do
+  profile_level: 
+    - strain_level
+  
+  read_type:
+    - short
+    - long

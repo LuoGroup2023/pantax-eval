@@ -1,0 +1,19 @@
+# @package _global_
+dataset:
+  _name_: nwc
+  samplesID: 
+    long:
+      - ont
+      - pacbio
+  true_abund: /home/work/wenhai/dataset/NWCs/sample2/abundance.txt
+  reads_path:
+    ont:
+      ont_reads_fq: /home/work/wenhai/dataset/NWCs/sample2/ont/SRR7585900/SRR7585900.fastq
+      ont_reads_fa: 
+      ont_read_length: /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/long_alternative_methods/read_length/nwcs_sample2_read_length.txt
+      camisim_reads_mapping_path: 
+    pacbio:
+      pacbio_reads_fq: /home/work/wenhai/dataset/NWCs/sample2/pacbio/SRR7585901/SRR7585901.fastq
+      pacbio_reads_fa:
+      pacbio_read_length: /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/long_alternative_methods/read_length/nwcs_sample2_pacbio_read_length.txt
+      camisim_reads_mapping_path: 

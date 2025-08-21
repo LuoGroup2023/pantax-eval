@@ -1,0 +1,16 @@
+# @package _global_
+defaults:
+  - /time_report: general_ngs_time
+
+top_wd: /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/alternative_methods_0208_auto
+scripts_dir: /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/scripts
+model: wd/tool_name/profile_level/dataset/samplesID
+report_name: evaluation_report.txt
+report_output_name:
+report_number_suffix:
+mode: general 
+report_mode: general 
+# time_report_df_output_path for plot
+time_report_df_output: False
+time_report_df_output_path: /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/scripts/time_report 
+version:

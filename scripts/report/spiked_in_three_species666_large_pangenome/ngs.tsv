@@ -1,0 +1,7 @@
+tool_name	profile_level	dataset	sample_id	0	1	2	3	4	5	6	7	8
+Ganon	strain_level	spiked_in_three_species666_large_pangenome	ngs	0.300	1.000	0.462	1.000	0.104	0.056	0.172	0.170	0.085
+KMCP	strain_level	spiked_in_three_species666_large_pangenome	ngs	1.000	1.000	1.000	1.000	0.016	0.009	0.026	0.026	0.013
+Kraken2	strain_level	spiked_in_three_species666_large_pangenome	ngs	0.300	1.000	0.462	1.000	0.324	0.174	0.511	0.539	0.270
+Bracken	strain_level	spiked_in_three_species666_large_pangenome	ngs	0.300	1.000	0.462	1.000	0.037	0.018	0.050	0.069	0.035
+Centrifuge	strain_level	spiked_in_three_species666_large_pangenome	ngs	0.300	1.000	0.462	1.000	0.328	0.173	0.499	0.549	0.274
+Centrifuger	strain_level	spiked_in_three_species666_large_pangenome	ngs	0.300	1.000	0.462	1.000	0.326	0.176	0.517	0.533	0.266

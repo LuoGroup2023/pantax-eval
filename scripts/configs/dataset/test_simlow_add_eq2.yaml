@@ -1,0 +1,16 @@
+# @package _global_
+dataset:
+  _name_: test_simlow_add_eq2
+  samplesID: 
+    short:
+      - ngs
+  true_abund: 
+  strain_true_abund: /home/work/wenhai/simulate_genome_data/PanTax/test/simlow_add_eq1/simlow_add_eq1_ngs/distributions/distribution_0.txt
+  reads_path:
+    ngs:
+      ngs_reads_fq: /home/work/wenhai/simulate_genome_data/PanTax/test/simlow_add_eq1/simlow_add_eq1_ngs/2024.11.25_15.17.29_sample_0/reads/anonymous_reads.fq.gz
+      ngs_reads_fq1: 
+      ngs_reads_fq2: 
+      ngs_read_length: 150
+      camisim_reads_mapping_path: 
+      pantax_db:

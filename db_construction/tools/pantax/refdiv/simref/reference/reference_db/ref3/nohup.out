@@ -1,0 +1,30 @@
+2025-07-07 12:54:39 - /home/work/wenhai/wh-github/PanTax/scripts/pantax -f /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/reference_diversity/reference/metadata/ref3_genomes.tsv -db ref3_pantax_db --create --index -t 64 -g --lz
+/home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/reference_diversity/reference/reference_db/ref3/ref3_pantax_db/reference_pangenome.gfa does not exist.
+2025-07-07 12:54:40 - Building reference pangenome ...
+2025-07-07 12:54:42,347 - task_scheduling.py[line:50] - INFO: Pangenome building first step: building pangenome for species with more than two genomes using pggb.
+2025-07-07 12:54:42,349 - task_scheduling.py[line:73] - INFO: Species pangenome need to build: 15.
+2025-07-07 12:54:42,390 - task_scheduling.py[line:308] - INFO: Species pangenome building percentage: 0.0%
+2025-07-07 12:54:42,390 - task_scheduling.py[line:313] - INFO: Started executing pangenome building commands.
+2025-07-07 13:16:40,777 - task_scheduling.py[line:289] - INFO: Species pangenome building percentage: 6.7%
+2025-07-07 13:32:31,075 - task_scheduling.py[line:289] - INFO: Species pangenome building percentage: 13.3%
+2025-07-07 13:39:15,554 - task_scheduling.py[line:289] - INFO: Species pangenome building percentage: 20.0%
+2025-07-07 13:40:47,245 - task_scheduling.py[line:289] - INFO: Species pangenome building percentage: 26.7%
+2025-07-07 13:55:32,580 - task_scheduling.py[line:289] - INFO: Species pangenome building percentage: 33.3%
+2025-07-07 13:58:22,971 - task_scheduling.py[line:289] - INFO: Species pangenome building percentage: 40.0%
+2025-07-07 14:03:01,638 - task_scheduling.py[line:289] - INFO: Species pangenome building percentage: 46.7%
+2025-07-07 14:09:15,249 - task_scheduling.py[line:289] - INFO: Species pangenome building percentage: 53.3%
+2025-07-07 14:12:47,300 - task_scheduling.py[line:289] - INFO: Species pangenome building percentage: 60.0%
+2025-07-07 14:13:49,249 - task_scheduling.py[line:289] - INFO: Species pangenome building percentage: 66.7%
+2025-07-07 14:15:03,604 - task_scheduling.py[line:289] - INFO: Species pangenome building percentage: 73.3%
+2025-07-07 14:15:37,802 - task_scheduling.py[line:289] - INFO: Species pangenome building percentage: 80.0%
+2025-07-07 14:15:44,375 - task_scheduling.py[line:289] - INFO: Species pangenome building percentage: 86.7%
+2025-07-07 14:16:41,950 - task_scheduling.py[line:289] - INFO: Species pangenome building percentage: 93.3%
+2025-07-07 14:18:11,954 - task_scheduling.py[line:289] - INFO: Species pangenome building percentage: 100.0%
+2025-07-07 14:18:12,956 - task_scheduling.py[line:320] - INFO: Completed all pangenome building commands for the species more than two genomes. Total execution wall clock time: 1h 23min 30s
+2025-07-07 14:18:13 - Completed all pangenome building commands for the species with only one genomes.
+2025-07-07 14:19:03 - Obtain the mapping information of graph and species...
+2025-07-07 14:19:03 - Obtain the mapping information of graph and species...done
+2025-07-07 14:19:03.511 [38;5;51mINFO[0m [pantaxr::stat] - Genomes statistics results written to /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/reference_diversity/reference/reference_db/ref3/ref3_pantax_db/species_genomes_stats.txt.
+2025-07-07 14:19:03 - Building reference pangenome completely.
+2025-07-07 14:19:04 - Construct index....
+2025-07-07 14:22:33 - Construct index.... done

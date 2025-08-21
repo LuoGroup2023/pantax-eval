@@ -1,0 +1,17 @@
+# @package _global_
+defaults:
+  - /time_report/database_build_time: single_species_1282
+report:
+  _name_: single_species_ngs_time
+  model_tex: configs/time_report/report_model/time_report_model.tex
+  profile_level: strain_level
+  query_dataset: ["3strains", "5strains", "10strains"]
+  type: NGS
+  samplesID: 
+    - ngs
+  time_report:
+    PanTax: /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/single_species_strain_level3/pantax/pantax_result3/dataset3
+    StrainScan: /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/single_species_strain_level3/strainscan/strainscan_result3/dataset3
+    StrainGE: /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/single_species_strain_level3/straingst/straingst_result3/dataset3
+    StrainEst: /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/single_species_strain_level3/strainest/strainest_result3/dataset3
+  report_name: single_species_dataset_ngs_time

@@ -1,0 +1,146 @@
+[Thu Dec 12 10:58:56 2024] Start to read in the genome files.
+[Thu Dec 12 10:59:25 2024] Found 523 sequences with total length 2087730384 bp.
+[Thu Dec 12 10:59:25 2024] Generate difference cover and chunks.
+[Thu Dec 12 11:00:10 2024] Found 125 chunks.
+[Thu Dec 12 11:00:10 2024] Extract 64 chunks. (0/125 chunks finished)
+[Thu Dec 12 11:00:10 2024] Wait for the chunk extraction to finish.
+[Thu Dec 12 11:00:28 2024] Submit 64 chunks.
+[Thu Dec 12 11:00:28 2024] Chunk 0 elements: 16659584
+[Thu Dec 12 11:00:28 2024] Chunk 1 elements: 16717568
+[Thu Dec 12 11:00:28 2024] Chunk 2 elements: 16670383
+[Thu Dec 12 11:00:28 2024] Chunk 3 elements: 16706650
+[Thu Dec 12 11:00:28 2024] Chunk 4 elements: 16737967
+[Thu Dec 12 11:00:28 2024] Chunk 5 elements: 16723430
+[Thu Dec 12 11:00:28 2024] Chunk 6 elements: 16679241
+[Thu Dec 12 11:00:28 2024] Chunk 7 elements: 16696931
+[Thu Dec 12 11:00:28 2024] Chunk 8 elements: 16658071
+[Thu Dec 12 11:00:28 2024] Chunk 9 elements: 16674678
+[Thu Dec 12 11:00:28 2024] Chunk 10 elements: 16691249
+[Thu Dec 12 11:00:28 2024] Chunk 11 elements: 16699025
+[Thu Dec 12 11:00:28 2024] Chunk 12 elements: 16774567
+[Thu Dec 12 11:00:28 2024] Chunk 13 elements: 16738486
+[Thu Dec 12 11:00:28 2024] Chunk 14 elements: 16701226
+[Thu Dec 12 11:00:28 2024] Chunk 15 elements: 16731041
+[Thu Dec 12 11:00:28 2024] Chunk 16 elements: 16701400
+[Thu Dec 12 11:00:28 2024] Chunk 17 elements: 16730518
+[Thu Dec 12 11:00:28 2024] Chunk 18 elements: 16681511
+[Thu Dec 12 11:00:28 2024] Chunk 19 elements: 16692606
+[Thu Dec 12 11:00:28 2024] Chunk 20 elements: 16679997
+[Thu Dec 12 11:00:28 2024] Chunk 21 elements: 16670388
+[Thu Dec 12 11:00:28 2024] Chunk 22 elements: 16719356
+[Thu Dec 12 11:00:28 2024] Chunk 23 elements: 16716070
+[Thu Dec 12 11:00:28 2024] Chunk 24 elements: 16690408
+[Thu Dec 12 11:00:28 2024] Chunk 25 elements: 16661335
+[Thu Dec 12 11:00:28 2024] Chunk 26 elements: 16712581
+[Thu Dec 12 11:00:28 2024] Chunk 27 elements: 16648137
+[Thu Dec 12 11:00:28 2024] Chunk 28 elements: 16672040
+[Thu Dec 12 11:00:28 2024] Chunk 29 elements: 16736393
+[Thu Dec 12 11:00:28 2024] Chunk 30 elements: 16679921
+[Thu Dec 12 11:00:28 2024] Chunk 31 elements: 16665527
+[Thu Dec 12 11:00:28 2024] Chunk 32 elements: 16718322
+[Thu Dec 12 11:00:28 2024] Chunk 33 elements: 16718748
+[Thu Dec 12 11:00:28 2024] Chunk 34 elements: 16737666
+[Thu Dec 12 11:00:28 2024] Chunk 35 elements: 16675463
+[Thu Dec 12 11:00:28 2024] Chunk 36 elements: 16726484
+[Thu Dec 12 11:00:28 2024] Chunk 37 elements: 16694179
+[Thu Dec 12 11:00:28 2024] Chunk 38 elements: 16667595
+[Thu Dec 12 11:00:28 2024] Chunk 39 elements: 16682647
+[Thu Dec 12 11:00:28 2024] Chunk 40 elements: 16724417
+[Thu Dec 12 11:00:28 2024] Chunk 41 elements: 16673155
+[Thu Dec 12 11:00:28 2024] Chunk 42 elements: 16698003
+[Thu Dec 12 11:00:28 2024] Chunk 43 elements: 16714769
+[Thu Dec 12 11:00:28 2024] Chunk 44 elements: 16685455
+[Thu Dec 12 11:00:28 2024] Chunk 45 elements: 16738712
+[Thu Dec 12 11:00:28 2024] Chunk 46 elements: 16734763
+[Thu Dec 12 11:00:28 2024] Chunk 47 elements: 16767188
+[Thu Dec 12 11:00:28 2024] Chunk 48 elements: 16614966
+[Thu Dec 12 11:00:28 2024] Chunk 49 elements: 16702189
+[Thu Dec 12 11:00:28 2024] Chunk 50 elements: 16716173
+[Thu Dec 12 11:00:28 2024] Chunk 51 elements: 16737486
+[Thu Dec 12 11:00:28 2024] Chunk 52 elements: 16743261
+[Thu Dec 12 11:00:28 2024] Chunk 53 elements: 16716976
+[Thu Dec 12 11:00:28 2024] Chunk 54 elements: 16692909
+[Thu Dec 12 11:00:28 2024] Chunk 55 elements: 16705235
+[Thu Dec 12 11:00:28 2024] Chunk 56 elements: 16669126
+[Thu Dec 12 11:00:28 2024] Chunk 57 elements: 16731918
+[Thu Dec 12 11:00:28 2024] Chunk 58 elements: 16680552
+[Thu Dec 12 11:00:28 2024] Chunk 59 elements: 16738434
+[Thu Dec 12 11:00:28 2024] Chunk 60 elements: 16651169
+[Thu Dec 12 11:00:28 2024] Chunk 61 elements: 16692871
+[Thu Dec 12 11:00:28 2024] Chunk 62 elements: 16681237
+[Thu Dec 12 11:00:28 2024] Chunk 63 elements: 16734966
+[Thu Dec 12 11:00:28 2024] Wait for the chunk sort to finish.
+[Thu Dec 12 11:01:03 2024] Postprocess 64 chunks.
+[Thu Dec 12 11:01:07 2024] Extract 64 chunks. (64/125 chunks finished)
+[Thu Dec 12 11:01:07 2024] Wait for the chunk extraction to finish.
+[Thu Dec 12 11:01:24 2024] Submit 61 chunks.
+[Thu Dec 12 11:01:24 2024] Chunk 0 elements: 16705582
+[Thu Dec 12 11:01:24 2024] Chunk 1 elements: 16666549
+[Thu Dec 12 11:01:24 2024] Chunk 2 elements: 16757111
+[Thu Dec 12 11:01:24 2024] Chunk 3 elements: 16737825
+[Thu Dec 12 11:01:24 2024] Chunk 4 elements: 16694081
+[Thu Dec 12 11:01:24 2024] Chunk 5 elements: 16698933
+[Thu Dec 12 11:01:24 2024] Chunk 6 elements: 16733090
+[Thu Dec 12 11:01:24 2024] Chunk 7 elements: 16737628
+[Thu Dec 12 11:01:24 2024] Chunk 8 elements: 16663830
+[Thu Dec 12 11:01:24 2024] Chunk 9 elements: 16713283
+[Thu Dec 12 11:01:24 2024] Chunk 10 elements: 16710233
+[Thu Dec 12 11:01:24 2024] Chunk 11 elements: 16756409
+[Thu Dec 12 11:01:24 2024] Chunk 12 elements: 16749941
+[Thu Dec 12 11:01:24 2024] Chunk 13 elements: 16664967
+[Thu Dec 12 11:01:24 2024] Chunk 14 elements: 16696367
+[Thu Dec 12 11:01:24 2024] Chunk 15 elements: 16664973
+[Thu Dec 12 11:01:24 2024] Chunk 16 elements: 16680050
+[Thu Dec 12 11:01:24 2024] Chunk 17 elements: 16703444
+[Thu Dec 12 11:01:24 2024] Chunk 18 elements: 16750825
+[Thu Dec 12 11:01:24 2024] Chunk 19 elements: 16754588
+[Thu Dec 12 11:01:24 2024] Chunk 20 elements: 16652132
+[Thu Dec 12 11:01:24 2024] Chunk 21 elements: 16696699
+[Thu Dec 12 11:01:24 2024] Chunk 22 elements: 16720967
+[Thu Dec 12 11:01:24 2024] Chunk 23 elements: 16686651
+[Thu Dec 12 11:01:24 2024] Chunk 24 elements: 16690152
+[Thu Dec 12 11:01:24 2024] Chunk 25 elements: 16692775
+[Thu Dec 12 11:01:24 2024] Chunk 26 elements: 16695746
+[Thu Dec 12 11:01:24 2024] Chunk 27 elements: 16738264
+[Thu Dec 12 11:01:24 2024] Chunk 28 elements: 16673230
+[Thu Dec 12 11:01:24 2024] Chunk 29 elements: 16733891
+[Thu Dec 12 11:01:24 2024] Chunk 30 elements: 16725762
+[Thu Dec 12 11:01:24 2024] Chunk 31 elements: 16705838
+[Thu Dec 12 11:01:24 2024] Chunk 32 elements: 16699417
+[Thu Dec 12 11:01:24 2024] Chunk 33 elements: 16650879
+[Thu Dec 12 11:01:24 2024] Chunk 34 elements: 16715009
+[Thu Dec 12 11:01:24 2024] Chunk 35 elements: 16728232
+[Thu Dec 12 11:01:24 2024] Chunk 36 elements: 16705120
+[Thu Dec 12 11:01:24 2024] Chunk 37 elements: 16693420
+[Thu Dec 12 11:01:24 2024] Chunk 38 elements: 16731333
+[Thu Dec 12 11:01:24 2024] Chunk 39 elements: 16711448
+[Thu Dec 12 11:01:24 2024] Chunk 40 elements: 16676876
+[Thu Dec 12 11:01:24 2024] Chunk 41 elements: 16695669
+[Thu Dec 12 11:01:24 2024] Chunk 42 elements: 16717950
+[Thu Dec 12 11:01:24 2024] Chunk 43 elements: 16671836
+[Thu Dec 12 11:01:24 2024] Chunk 44 elements: 16717748
+[Thu Dec 12 11:01:24 2024] Chunk 45 elements: 16724908
+[Thu Dec 12 11:01:24 2024] Chunk 46 elements: 16671341
+[Thu Dec 12 11:01:24 2024] Chunk 47 elements: 16673158
+[Thu Dec 12 11:01:24 2024] Chunk 48 elements: 16731670
+[Thu Dec 12 11:01:24 2024] Chunk 49 elements: 16699878
+[Thu Dec 12 11:01:24 2024] Chunk 50 elements: 16660976
+[Thu Dec 12 11:01:24 2024] Chunk 51 elements: 16682762
+[Thu Dec 12 11:01:24 2024] Chunk 52 elements: 16694898
+[Thu Dec 12 11:01:24 2024] Chunk 53 elements: 16708179
+[Thu Dec 12 11:01:24 2024] Chunk 54 elements: 16720463
+[Thu Dec 12 11:01:24 2024] Chunk 55 elements: 16657780
+[Thu Dec 12 11:01:24 2024] Chunk 56 elements: 16705635
+[Thu Dec 12 11:01:24 2024] Chunk 57 elements: 16660821
+[Thu Dec 12 11:01:24 2024] Chunk 58 elements: 16674834
+[Thu Dec 12 11:01:24 2024] Chunk 59 elements: 16704961
+[Thu Dec 12 11:01:24 2024] Chunk 60 elements: 16706048
+[Thu Dec 12 11:01:24 2024] Wait for the chunk sort to finish.
+[Thu Dec 12 11:02:01 2024] Postprocess 61 chunks.
+[Thu Dec 12 11:02:06 2024] Start to transform sampled SA to sequence ID.
+[Thu Dec 12 11:02:14 2024] Start to compress BWT with RBBWT.
+[Thu Dec 12 11:02:38 2024] Sequence_RunBlock: total_length: 2087730384 block_size: 8 runBlock_block: 188075734
+[Thu Dec 12 11:02:38 2024] Sequence_WaveletTree: total_length: 188075734 node_cnt: 3
+[Thu Dec 12 11:02:38 2024] Sequence_WaveletTree: total_length: 583124512 node_cnt: 3
+[Thu Dec 12 11:02:44 2024] centrifuger-build finishes.
+[Thu Dec 12 11:02:45 2024] Done.

@@ -1,0 +1,10 @@
+tool_name	profile_level	dataset	sample_id	0	1	2	3	4	5	6	7	8
+PanTax	strain_level	zymo1	ontR9	0.467	0.875	0.609	0.751	0.230	0.040	0.309	0.515	0.258
+PanTax (fast)	strain_level	zymo1	ontR9	0.583	0.875	0.700	0.816	0.215	0.039	0.295	0.474	0.237
+Sylph	strain_level	zymo1	ontR9	0.875	0.875	0.875	0.606	0.250	0.044	0.331	0.524	0.262
+Ganon	strain_level	zymo1	ontR9	0.294	0.625	0.400	0.283	0.378	0.125	1.000	1.000	1.000
+KMCP	strain_level	zymo1	ontR9	-	-	-	-	-	-	-	-	-
+Kraken2	strain_level	zymo1	ontR9	0.013	0.875	0.026	0.858	0.288	0.091	0.708	1.275	0.638
+Centrifuge	strain_level	zymo1	ontR9	0.013	0.875	0.026	0.789	0.266	0.076	0.601	0.939	0.469
+Centrifuger	strain_level	zymo1	ontR9	0.013	0.875	0.026	0.713	0.248	0.075	0.647	1.083	0.542
+MetaMaps	strain_level	zymo1	ontR9	0.016	0.875	0.032	0.788	0.220	0.039	0.297	0.465	0.233

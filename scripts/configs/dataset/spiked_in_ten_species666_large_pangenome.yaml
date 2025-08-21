@@ -1,0 +1,24 @@
+# @package _global_
+dataset:
+  _name_: spiked_in_ten_species666_large_pangenome
+  samplesID: 
+    short:
+      - ngs
+    long:
+      - hifi
+  true_abund: 
+  strain_true_abund: /home/work/wenhai/simulate_genome_data/PanTax_species_666_for_large_pangenome/ten/metadata/distribution.txt
+  reads_path:
+    ngs:
+      ngs_reads_fq: 
+      ngs_reads_fq1: /home/work/wenhai/simulate_genome_data/PanTax_species_666_for_large_pangenome/ten/sim_species666_ten_ngs/2024.12.20_11.11.20_sample_0/reads/shuffle_spiked_in_ngs_1.fq
+      ngs_reads_fq2: /home/work/wenhai/simulate_genome_data/PanTax_species_666_for_large_pangenome/ten/sim_species666_ten_ngs/2024.12.20_11.11.20_sample_0/reads/shuffle_spiked_in_ngs_2.fq
+      ngs_read_length: 150
+      camisim_reads_mapping_path: 
+      pantax_db: 
+    hifi:
+      hifi_reads_fq: /home/work/wenhai/simulate_genome_data/PanTax_species_666_for_large_pangenome/ten/sim_species666_ten_hifi/2024.12.20_12.00.01_sample_0/reads/shuffle_spiked_in_hifi.fq
+      hifi_reads_fa:
+      hifi_read_length: 
+      camisim_reads_mapping_path: 
+      pantax_db: 

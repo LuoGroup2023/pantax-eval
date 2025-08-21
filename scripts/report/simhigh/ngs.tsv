@@ -1,0 +1,10 @@
+tool_name	profile_level	dataset	sample_id	0	1	2	3	4	5	6	7	8
+PanTax	strain_level	simhigh	ngs	0.863	0.778	0.818	0.698	0.021	0.000	0.372	0.470	0.235
+PanTax (fast)	strain_level	simhigh	ngs	0.863	0.778	0.818	0.705	0.021	0.000	0.368	0.466	0.233
+Sylph	strain_level	simhigh	ngs	0.899	0.568	0.696	0.528	0.032	0.001	0.743	0.821	0.410
+Ganon	strain_level	simhigh	ngs	0.215	0.791	0.339	0.721	0.024	0.001	0.513	0.626	0.318
+KMCP	strain_level	simhigh	ngs	0.559	0.757	0.643	0.718	0.021	0.000	0.398	0.578	0.289
+Kraken2	strain_level	simhigh	ngs	0.081	0.788	0.147	0.725	0.027	0.001	0.685	0.826	0.413
+Bracken	strain_level	simhigh	ngs	0.134	0.786	0.230	0.744	0.018	0.000	0.279	0.475	0.237
+Centrifuge	strain_level	simhigh	ngs	0.075	0.788	0.137	0.727	0.026	0.001	0.647	0.794	0.397
+Centrifuger	strain_level	simhigh	ngs	0.204	0.792	0.325	0.737	0.022	0.000	0.463	0.613	0.307

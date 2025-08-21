@@ -1,0 +1,227 @@
+2025-07-11 05:50:53 - /home/work/wenhai/wh-github/PanTax/scripts/pantax -f /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/reference_diversity/reference/metadata/ref5_genomes.tsv -db ref5_pantax_db --create --index -t 64 -g --lz -v --debug
+/home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/reference_diversity/reference/reference_db/ref5/ref5_pantax_db/reference_pangenome.gfa does not exist.
+2025-07-11 05:50:53 - Building reference pangenome ...
+2025-07-11 05:50:55,369 - task_scheduling.py[line:50] - INFO: Pangenome building first step: building pangenome for species with more than two genomes using pggb.
+2025-07-11 05:50:55,370 - task_scheduling.py[line:64] - DEBUG: Create /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/reference_diversity/reference/reference_db/ref5/ref5_pantax_db_tmp/gfa_build for pangenome construction.
+2025-07-11 05:50:55,430 - task_scheduling.py[line:73] - INFO: Species pangenome need to build: 34.
+2025-07-11 05:50:55,472 - task_scheduling.py[line:308] - INFO: Species pangenome building percentage: 0.0%
+2025-07-11 05:50:55,472 - task_scheduling.py[line:313] - INFO: Started executing pangenome building commands.
+2025-07-11 05:50:55,472 - selector_events.py[line:54] - DEBUG: Using selector: EpollSelector
+2025-07-11 05:50:55,473 - task_scheduling.py[line:264] - DEBUG: Submitted task 1307 with 64 cores
+2025-07-11 05:50:55,473 - task_scheduling.py[line:267] - DEBUG: available_cores: 0
+2025-07-11 05:50:55,473 - task_scheduling.py[line:268] - DEBUG: ['1307'] species running
+2025-07-11 07:02:34,425 - task_scheduling.py[line:298] - DEBUG: Completed 1307, freed 64 cores
+2025-07-11 07:02:34,425 - task_scheduling.py[line:264] - DEBUG: Submitted task 1311 with 64 cores
+2025-07-11 07:02:34,425 - task_scheduling.py[line:267] - DEBUG: available_cores: 0
+2025-07-11 07:02:34,425 - task_scheduling.py[line:268] - DEBUG: ['1311'] species running
+2025-07-11 07:40:44,600 - task_scheduling.py[line:289] - INFO: Species pangenome building percentage: 5.9%
+2025-07-11 07:40:44,616 - task_scheduling.py[line:298] - DEBUG: Completed 1311, freed 64 cores
+2025-07-11 07:40:44,616 - task_scheduling.py[line:264] - DEBUG: Submitted task 1313 with 64 cores
+2025-07-11 07:40:44,616 - task_scheduling.py[line:267] - DEBUG: available_cores: 0
+2025-07-11 07:40:44,616 - task_scheduling.py[line:268] - DEBUG: ['1313'] species running
+2025-07-11 08:58:21,562 - task_scheduling.py[line:298] - DEBUG: Completed 1313, freed 64 cores
+2025-07-11 08:58:21,563 - task_scheduling.py[line:264] - DEBUG: Submitted task 1314 with 64 cores
+2025-07-11 08:58:21,563 - task_scheduling.py[line:267] - DEBUG: available_cores: 0
+2025-07-11 08:58:21,563 - task_scheduling.py[line:268] - DEBUG: ['1314'] species running
+2025-07-11 12:41:40,844 - task_scheduling.py[line:289] - INFO: Species pangenome building percentage: 11.8%
+2025-07-11 12:41:40,865 - task_scheduling.py[line:298] - DEBUG: Completed 1314, freed 64 cores
+2025-07-11 12:41:40,865 - task_scheduling.py[line:264] - DEBUG: Submitted task 1308 with 48 cores
+2025-07-11 12:41:40,865 - task_scheduling.py[line:267] - DEBUG: available_cores: 16
+2025-07-11 12:41:40,865 - task_scheduling.py[line:268] - DEBUG: ['1308'] species running
+2025-07-11 13:17:20,871 - task_scheduling.py[line:298] - DEBUG: Completed 1308, freed 48 cores
+2025-07-11 13:17:20,872 - task_scheduling.py[line:264] - DEBUG: Submitted task 1334 with 48 cores
+2025-07-11 13:17:20,872 - task_scheduling.py[line:267] - DEBUG: available_cores: 16
+2025-07-11 13:17:20,872 - task_scheduling.py[line:268] - DEBUG: ['1334'] species running
+2025-07-11 13:31:40,459 - task_scheduling.py[line:289] - INFO: Species pangenome building percentage: 17.6%
+2025-07-11 13:31:40,477 - task_scheduling.py[line:298] - DEBUG: Completed 1334, freed 48 cores
+2025-07-11 13:31:40,477 - task_scheduling.py[line:264] - DEBUG: Submitted task 1304 with 32 cores
+2025-07-11 13:31:40,477 - task_scheduling.py[line:264] - DEBUG: Submitted task 1309 with 32 cores
+2025-07-11 13:31:40,477 - task_scheduling.py[line:267] - DEBUG: available_cores: 0
+2025-07-11 13:31:40,477 - task_scheduling.py[line:268] - DEBUG: ['1304', '1309'] species running
+2025-07-11 13:36:56,553 - task_scheduling.py[line:298] - DEBUG: Completed 1309, freed 32 cores
+2025-07-11 13:36:56,553 - task_scheduling.py[line:264] - DEBUG: Submitted task 1336 with 32 cores
+2025-07-11 13:36:56,553 - task_scheduling.py[line:267] - DEBUG: available_cores: 0
+2025-07-11 13:36:56,553 - task_scheduling.py[line:268] - DEBUG: ['1304', '1336'] species running
+2025-07-11 13:39:21,371 - task_scheduling.py[line:289] - INFO: Species pangenome building percentage: 23.5%
+2025-07-11 13:39:21,372 - task_scheduling.py[line:298] - DEBUG: Completed 1304, freed 32 cores
+2025-07-11 13:39:21,372 - task_scheduling.py[line:264] - DEBUG: Submitted task 1302 with 16 cores
+2025-07-11 13:39:21,372 - task_scheduling.py[line:264] - DEBUG: Submitted task 1303 with 16 cores
+2025-07-11 13:39:21,372 - task_scheduling.py[line:267] - DEBUG: available_cores: 0
+2025-07-11 13:39:21,372 - task_scheduling.py[line:268] - DEBUG: ['1336', '1302', '1303'] species running
+2025-07-11 13:42:57,202 - task_scheduling.py[line:298] - DEBUG: Completed 1303, freed 16 cores
+2025-07-11 13:42:57,202 - task_scheduling.py[line:264] - DEBUG: Submitted task 1328 with 16 cores
+2025-07-11 13:42:57,202 - task_scheduling.py[line:267] - DEBUG: available_cores: 0
+2025-07-11 13:42:57,202 - task_scheduling.py[line:268] - DEBUG: ['1336', '1302', '1328'] species running
+2025-07-11 13:45:17,978 - task_scheduling.py[line:289] - INFO: Species pangenome building percentage: 29.4%
+2025-07-11 13:45:17,978 - task_scheduling.py[line:298] - DEBUG: Completed 1302, freed 16 cores
+2025-07-11 13:45:17,978 - task_scheduling.py[line:264] - DEBUG: Submitted task 1329 with 16 cores
+2025-07-11 13:45:17,978 - task_scheduling.py[line:267] - DEBUG: available_cores: 0
+2025-07-11 13:45:17,978 - task_scheduling.py[line:268] - DEBUG: ['1336', '1328', '1329'] species running
+2025-07-11 13:46:15,756 - task_scheduling.py[line:298] - DEBUG: Completed 1336, freed 32 cores
+2025-07-11 13:46:15,756 - task_scheduling.py[line:264] - DEBUG: Submitted task 1335 with 16 cores
+2025-07-11 13:46:15,756 - task_scheduling.py[line:264] - DEBUG: Submitted task 1338 with 16 cores
+2025-07-11 13:46:15,756 - task_scheduling.py[line:267] - DEBUG: available_cores: 0
+2025-07-11 13:46:15,756 - task_scheduling.py[line:268] - DEBUG: ['1328', '1329', '1335', '1338'] species running
+2025-07-11 13:47:07,059 - task_scheduling.py[line:289] - INFO: Species pangenome building percentage: 35.3%
+2025-07-11 13:47:07,060 - task_scheduling.py[line:298] - DEBUG: Completed 1328, freed 16 cores
+2025-07-11 13:47:07,060 - task_scheduling.py[line:264] - DEBUG: Submitted task 315405 with 16 cores
+2025-07-11 13:47:07,060 - task_scheduling.py[line:267] - DEBUG: available_cores: 0
+2025-07-11 13:47:07,060 - task_scheduling.py[line:268] - DEBUG: ['1329', '1335', '1338', '315405'] species running
+2025-07-11 13:47:08,888 - task_scheduling.py[line:298] - DEBUG: Completed 1329, freed 16 cores
+2025-07-11 13:47:08,889 - task_scheduling.py[line:264] - DEBUG: Submitted task 1501662 with 16 cores
+2025-07-11 13:47:08,889 - task_scheduling.py[line:267] - DEBUG: available_cores: 0
+2025-07-11 13:47:08,889 - task_scheduling.py[line:268] - DEBUG: ['1335', '1338', '315405', '1501662'] species running
+2025-07-11 13:48:39,722 - task_scheduling.py[line:289] - INFO: Species pangenome building percentage: 41.2%
+2025-07-11 13:48:39,722 - task_scheduling.py[line:298] - DEBUG: Completed 1338, freed 16 cores
+2025-07-11 13:48:39,722 - task_scheduling.py[line:264] - DEBUG: Submitted task 1305 with 8 cores
+2025-07-11 13:48:39,722 - task_scheduling.py[line:264] - DEBUG: Submitted task 1310 with 8 cores
+2025-07-11 13:48:39,722 - task_scheduling.py[line:267] - DEBUG: available_cores: 0
+2025-07-11 13:48:39,722 - task_scheduling.py[line:268] - DEBUG: ['1335', '315405', '1501662', '1305', '1310'] species running
+2025-07-11 13:49:16,561 - task_scheduling.py[line:298] - DEBUG: Completed 1335, freed 16 cores
+2025-07-11 13:49:16,561 - task_scheduling.py[line:264] - DEBUG: Submitted task 1318 with 8 cores
+2025-07-11 13:49:16,561 - task_scheduling.py[line:264] - DEBUG: Submitted task 1340 with 8 cores
+2025-07-11 13:49:16,561 - task_scheduling.py[line:267] - DEBUG: available_cores: 0
+2025-07-11 13:49:16,561 - task_scheduling.py[line:268] - DEBUG: ['315405', '1501662', '1305', '1310', '1318', '1340'] species running
+2025-07-11 13:50:08,069 - task_scheduling.py[line:289] - INFO: Species pangenome building percentage: 47.1%
+2025-07-11 13:50:08,069 - task_scheduling.py[line:298] - DEBUG: Completed 315405, freed 16 cores
+2025-07-11 13:50:08,070 - task_scheduling.py[line:264] - DEBUG: Submitted task 1346 with 8 cores
+2025-07-11 13:50:08,070 - task_scheduling.py[line:264] - DEBUG: Submitted task 1348 with 8 cores
+2025-07-11 13:50:08,070 - task_scheduling.py[line:267] - DEBUG: available_cores: 0
+2025-07-11 13:50:08,070 - task_scheduling.py[line:268] - DEBUG: ['1501662', '1305', '1310', '1318', '1340', '1346', '1348'] species running
+2025-07-11 13:50:16,334 - task_scheduling.py[line:298] - DEBUG: Completed 1340, freed 8 cores
+2025-07-11 13:50:16,335 - task_scheduling.py[line:264] - DEBUG: Submitted task 1349 with 8 cores
+2025-07-11 13:50:16,335 - task_scheduling.py[line:267] - DEBUG: available_cores: 0
+2025-07-11 13:50:16,335 - task_scheduling.py[line:268] - DEBUG: ['1501662', '1305', '1310', '1318', '1346', '1348', '1349'] species running
+2025-07-11 13:50:19,508 - task_scheduling.py[line:289] - INFO: Species pangenome building percentage: 52.9%
+2025-07-11 13:50:19,508 - task_scheduling.py[line:298] - DEBUG: Completed 1310, freed 8 cores
+2025-07-11 13:50:19,508 - task_scheduling.py[line:264] - DEBUG: Submitted task 59310 with 8 cores
+2025-07-11 13:50:19,508 - task_scheduling.py[line:267] - DEBUG: available_cores: 0
+2025-07-11 13:50:19,508 - task_scheduling.py[line:268] - DEBUG: ['1501662', '1305', '1318', '1346', '1348', '1349', '59310'] species running
+2025-07-11 13:50:32,594 - task_scheduling.py[line:298] - DEBUG: Completed 1318, freed 8 cores
+2025-07-11 13:50:32,594 - task_scheduling.py[line:264] - DEBUG: Submitted task 76860 with 8 cores
+2025-07-11 13:50:32,594 - task_scheduling.py[line:267] - DEBUG: available_cores: 0
+2025-07-11 13:50:32,594 - task_scheduling.py[line:268] - DEBUG: ['1501662', '1305', '1346', '1348', '1349', '59310', '76860'] species running
+2025-07-11 13:50:40,416 - task_scheduling.py[line:289] - INFO: Species pangenome building percentage: 58.8%
+2025-07-11 13:50:40,416 - task_scheduling.py[line:298] - DEBUG: Completed 1501662, freed 16 cores
+2025-07-11 13:50:40,416 - task_scheduling.py[line:264] - DEBUG: Submitted task 82348 with 8 cores
+2025-07-11 13:50:40,416 - task_scheduling.py[line:264] - DEBUG: Submitted task 113107 with 8 cores
+2025-07-11 13:50:40,416 - task_scheduling.py[line:267] - DEBUG: available_cores: 0
+2025-07-11 13:50:40,416 - task_scheduling.py[line:268] - DEBUG: ['1305', '1346', '1348', '1349', '59310', '76860', '82348', '113107'] species running
+2025-07-11 13:51:07,810 - task_scheduling.py[line:298] - DEBUG: Completed 1346, freed 8 cores
+2025-07-11 13:51:07,810 - task_scheduling.py[line:264] - DEBUG: Submitted task 150055 with 8 cores
+2025-07-11 13:51:07,810 - task_scheduling.py[line:267] - DEBUG: available_cores: 0
+2025-07-11 13:51:07,810 - task_scheduling.py[line:268] - DEBUG: ['1305', '1348', '1349', '59310', '76860', '82348', '113107', '150055'] species running
+2025-07-11 13:51:27,491 - task_scheduling.py[line:289] - INFO: Species pangenome building percentage: 64.7%
+2025-07-11 13:51:27,492 - task_scheduling.py[line:298] - DEBUG: Completed 59310, freed 8 cores
+2025-07-11 13:51:27,492 - task_scheduling.py[line:264] - DEBUG: Submitted task 197614 with 8 cores
+2025-07-11 13:51:27,492 - task_scheduling.py[line:267] - DEBUG: available_cores: 0
+2025-07-11 13:51:27,492 - task_scheduling.py[line:268] - DEBUG: ['1305', '1348', '1349', '76860', '82348', '113107', '150055', '197614'] species running
+2025-07-11 13:51:49,108 - task_scheduling.py[line:298] - DEBUG: Completed 1348, freed 8 cores
+2025-07-11 13:51:49,108 - task_scheduling.py[line:264] - DEBUG: Submitted task 361101 with 8 cores
+2025-07-11 13:51:49,108 - task_scheduling.py[line:267] - DEBUG: available_cores: 0
+2025-07-11 13:51:49,108 - task_scheduling.py[line:268] - DEBUG: ['1305', '1349', '76860', '82348', '113107', '150055', '197614', '361101'] species running
+2025-07-11 13:52:07,219 - task_scheduling.py[line:289] - INFO: Species pangenome building percentage: 70.6%
+2025-07-11 13:52:07,219 - task_scheduling.py[line:298] - DEBUG: Completed 1349, freed 8 cores
+2025-07-11 13:52:07,220 - task_scheduling.py[line:264] - DEBUG: Submitted task 1156431 with 8 cores
+2025-07-11 13:52:07,220 - task_scheduling.py[line:267] - DEBUG: available_cores: 0
+2025-07-11 13:52:07,220 - task_scheduling.py[line:268] - DEBUG: ['1305', '76860', '82348', '113107', '150055', '197614', '361101', '1156431'] species running
+2025-07-11 13:52:13,957 - task_scheduling.py[line:298] - DEBUG: Completed 113107, freed 8 cores
+2025-07-11 13:52:13,957 - task_scheduling.py[line:264] - DEBUG: Submitted task 1917441 with 8 cores
+2025-07-11 13:52:13,957 - task_scheduling.py[line:267] - DEBUG: available_cores: 0
+2025-07-11 13:52:13,957 - task_scheduling.py[line:268] - DEBUG: ['1305', '76860', '82348', '150055', '197614', '361101', '1156431', '1917441'] species running
+2025-07-11 13:52:35,226 - task_scheduling.py[line:289] - INFO: Species pangenome building percentage: 76.5%
+2025-07-11 13:52:35,226 - task_scheduling.py[line:298] - DEBUG: Completed 1305, freed 8 cores
+2025-07-11 13:52:35,227 - task_scheduling.py[line:264] - DEBUG: Submitted task 2686210 with 8 cores
+2025-07-11 13:52:35,227 - task_scheduling.py[line:267] - DEBUG: available_cores: 0
+2025-07-11 13:52:35,227 - task_scheduling.py[line:268] - DEBUG: ['76860', '82348', '150055', '197614', '361101', '1156431', '1917441', '2686210'] species running
+2025-07-11 13:52:36,957 - task_scheduling.py[line:298] - DEBUG: Completed 82348, freed 8 cores
+2025-07-11 13:52:36,957 - task_scheduling.py[line:267] - DEBUG: available_cores: 8
+2025-07-11 13:52:36,957 - task_scheduling.py[line:268] - DEBUG: ['76860', '150055', '197614', '361101', '1156431', '1917441', '2686210'] species running
+2025-07-11 13:52:59,103 - task_scheduling.py[line:289] - INFO: Species pangenome building percentage: 82.4%
+2025-07-11 13:52:59,103 - task_scheduling.py[line:298] - DEBUG: Completed 76860, freed 8 cores
+2025-07-11 13:52:59,103 - task_scheduling.py[line:267] - DEBUG: available_cores: 16
+2025-07-11 13:52:59,104 - task_scheduling.py[line:268] - DEBUG: ['150055', '197614', '361101', '1156431', '1917441', '2686210'] species running
+2025-07-11 13:52:59,699 - task_scheduling.py[line:298] - DEBUG: Completed 150055, freed 8 cores
+2025-07-11 13:52:59,700 - task_scheduling.py[line:267] - DEBUG: available_cores: 24
+2025-07-11 13:52:59,700 - task_scheduling.py[line:268] - DEBUG: ['197614', '361101', '1156431', '1917441', '2686210'] species running
+2025-07-11 13:53:25,209 - task_scheduling.py[line:289] - INFO: Species pangenome building percentage: 88.2%
+2025-07-11 13:53:25,210 - task_scheduling.py[line:298] - DEBUG: Completed 1156431, freed 8 cores
+2025-07-11 13:53:25,210 - task_scheduling.py[line:267] - DEBUG: available_cores: 32
+2025-07-11 13:53:25,210 - task_scheduling.py[line:268] - DEBUG: ['197614', '361101', '1917441', '2686210'] species running
+2025-07-11 13:53:31,060 - task_scheduling.py[line:298] - DEBUG: Completed 197614, freed 8 cores
+2025-07-11 13:53:31,060 - task_scheduling.py[line:267] - DEBUG: available_cores: 40
+2025-07-11 13:53:31,060 - task_scheduling.py[line:268] - DEBUG: ['361101', '1917441', '2686210'] species running
+2025-07-11 13:53:35,144 - task_scheduling.py[line:289] - INFO: Species pangenome building percentage: 94.1%
+2025-07-11 13:53:35,145 - task_scheduling.py[line:298] - DEBUG: Completed 361101, freed 8 cores
+2025-07-11 13:53:35,145 - task_scheduling.py[line:267] - DEBUG: available_cores: 48
+2025-07-11 13:53:35,145 - task_scheduling.py[line:268] - DEBUG: ['1917441', '2686210'] species running
+2025-07-11 13:54:22,885 - task_scheduling.py[line:298] - DEBUG: Completed 1917441, freed 8 cores
+2025-07-11 13:54:22,885 - task_scheduling.py[line:267] - DEBUG: available_cores: 56
+2025-07-11 13:54:22,885 - task_scheduling.py[line:268] - DEBUG: ['2686210'] species running
+2025-07-11 13:55:03,341 - task_scheduling.py[line:289] - INFO: Species pangenome building percentage: 100.0%
+2025-07-11 13:55:03,341 - task_scheduling.py[line:298] - DEBUG: Completed 2686210, freed 8 cores
+2025-07-11 13:55:04,343 - task_scheduling.py[line:320] - INFO: Completed all pangenome building commands for the species more than two genomes. Total execution wall clock time: 8h 4min 8s
+Error: no compression format specified!
+Error: no compression format specified!
+Error: no compression format specified!
+Error: no compression format specified!
+Error: no compression format specified!
+Error: no compression format specified!
+Error: no compression format specified!
+Error: no compression format specified!
+Error: no compression format specified!
+Error: no compression format specified!
+Error: no compression format specified!
+Error: no compression format specified!
+Error: no compression format specified!
+Error: no compression format specified!
+Error: no compression format specified!
+Error: no compression format specified!
+Error: no compression format specified!
+Error: no compression format specified!
+Error: no compression format specified!
+Error: no compression format specified!
+Error: no compression format specified!
+Error: no compression format specified!
+Error: no compression format specified!
+Error: no compression format specified!
+Error: no compression format specified!
+Error: no compression format specified!
+Error: no compression format specified!
+Error: no compression format specified!
+Error: no compression format specified!
+Error: no compression format specified!
+Error: no compression format specified!
+Error: no compression format specified!
+Error: no compression format specified!
+Error: no compression format specified!
+Error: no compression format specified!
+Error: no compression format specified!
+Error: no compression format specified!
+Error: no compression format specified!
+Error: no compression format specified!
+Error: no compression format specified!
+Error: no compression format specified!
+Error: no compression format specified!
+Error: no compression format specified!
+Error: no compression format specified!
+Error: no compression format specified!
+Error: no compression format specified!
+Error: no compression format specified!
+Error: no compression format specified!
+Error: no compression format specified!
+2025-07-12 04:48:05 - /home/work/wenhai/wh-github/PanTax/scripts/pantax -f /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/reference_diversity/reference/metadata/ref5_genomes.tsv -db ref5_pantax_db --create --index -t 64 -g --lz -v --debug
+/home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/reference_diversity/reference/reference_db/ref5/ref5_pantax_db/reference_pangenome.gfa does not exist.
+2025-07-12 04:48:05 - Building reference pangenome ...
+2025-07-12 04:48:09,207 - task_scheduling.py[line:50] - INFO: Pangenome building first step: building pangenome for species with more than two genomes using pggb.
+2025-07-12 04:48:09,207 - task_scheduling.py[line:62] - INFO: Resume to build pangenome.
+2025-07-12 04:48:09,208 - task_scheduling.py[line:73] - INFO: Species pangenome need to build: 34.
+2025-07-12 04:48:09,242 - task_scheduling.py[line:308] - INFO: Species pangenome building percentage: 100.0%
+2025-07-12 04:48:09,242 - task_scheduling.py[line:310] - INFO: All species pangenome has been built. Skipping this step.
+2025-07-12 04:48:11 - Completed all pangenome building commands for the species with only one genomes.
+2025-07-12 04:50:38 - Obtain the mapping information of graph and species...
+2025-07-12 04:50:38 - Obtain the mapping information of graph and species...done
+2025-07-12 04:50:41.277 [38;5;51mINFO[0m [pantaxr::stat] - Genomes statistics results written to /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/reference_diversity/reference/reference_db/ref5/ref5_pantax_db/species_genomes_stats.txt.
+2025-07-12 04:50:41 - Building reference pangenome completely.
+2025-07-12 04:50:44 - Construct index....
+2025-07-12 06:25:07 - Construct index.... done

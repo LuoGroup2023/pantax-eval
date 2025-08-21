@@ -1,0 +1,7 @@
+# @package _global_
+tool_database_build_time:
+  PanTax: [/home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/alternative_methods/pantax/species_1282_strain/build_time.log, /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/alternative_methods/pantax/species_1282_strain/index_time.log]
+  StrainScan: /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/single_species_strain_level3/database_build/strainscan/strainscan_build_time.log
+  StrainGE: /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/single_species_strain_level3/database_build/straingst/build_time.log
+  StrainEst: /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/single_species_strain_level3/database_build/strainest/build_time.log
+  

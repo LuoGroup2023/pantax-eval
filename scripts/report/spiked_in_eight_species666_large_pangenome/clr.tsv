@@ -1,0 +1,8 @@
+tool_name	profile_level	dataset	sample_id	0	1	2	3	4	5	6	7	8
+PanTax	strain_level	spiked_in_eight_species666_large_pangenome	clr	1.000	1.000	1.000	1.000	0.024	0.008	0.072	0.060	0.030
+Ganon	strain_level	spiked_in_eight_species666_large_pangenome	clr	-	-	-	-	-	-	-	-	-
+KMCP	strain_level	spiked_in_eight_species666_large_pangenome	clr	-	-	-	-	-	-	-	-	-
+Kraken2	strain_level	spiked_in_eight_species666_large_pangenome	clr	0.800	1.000	0.889	1.000	0.088	0.028	0.280	0.252	0.126
+Centrifuge	strain_level	spiked_in_eight_species666_large_pangenome	clr	0.800	1.000	0.889	1.000	0.065	0.022	0.208	0.177	0.088
+Centrifuger	strain_level	spiked_in_eight_species666_large_pangenome	clr	0.800	1.000	0.889	1.000	0.049	0.016	0.154	0.132	0.066
+MetaMaps	strain_level	spiked_in_eight_species666_large_pangenome	clr	0.667	0.500	0.571	0.500	0.413	0.121	1.109	0.974	0.487

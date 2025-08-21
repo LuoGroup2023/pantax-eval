@@ -1,0 +1,13 @@
+tool_name	profile_level	dataset	sample_id	0	1	2	3	4	5	6	7	8
+PanTax	strain_level	simlow-gtdb	ngs	1.000	0.967	0.983	0.967	0.047	0.002	0.132	0.140	0.070
+PanTax(fast)	strain_level	simlow-gtdb	ngs	1.000	0.967	0.983	0.967	0.047	0.002	0.132	0.140	0.070
+Ganon	strain_level	simlow-gtdb	ngs	0.328	1.000	0.494	0.998	0.133	0.012	0.769	0.730	0.366
+KMCP	strain_level	simlow-gtdb	ngs	1.000	1.000	1.000	1.000	0.006	0.001	0.058	0.032	0.016
+Kraken2	strain_level	simlow-gtdb	ngs	0.016	1.000	0.032	1.000	0.066	0.006	0.396	0.385	0.192
+Bracken	strain_level	simlow-gtdb	ngs	0.143	1.000	0.249	1.000	0.010	0.001	0.042	0.067	0.033
+Centrifuge	strain_level	simlow-gtdb	ngs	0.063	1.000	0.119	1.000	0.060	0.005	0.358	0.348	0.174
+Centrifuger	strain_level	simlow-gtdb	ngs	0.203	1.000	0.337	1.000	0.040	0.002	0.210	0.150	0.075
+MetaMaps	strain_level	simlow-gtdb	ngs	0.203	1.000	0.337	1.000	0.040	0.002	0.210	0.150	0.075
+StrainScan	strain_level	simlow-gtdb	ngs	0.203	1.000	0.337	1.000	0.040	0.002	0.210	0.150	0.075
+StrainGE	strain_level	simlow-gtdb	ngs	0.203	1.000	0.337	1.000	0.040	0.002	0.210	0.150	0.075
+StrainEst	strain_level	simlow-gtdb	ngs	0.203	1.000	0.337	1.000	0.040	0.002	0.210	0.150	0.075

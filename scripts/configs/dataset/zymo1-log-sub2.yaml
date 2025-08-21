@@ -1,0 +1,25 @@
+# @package _global_
+dataset:
+  _name_: zymo1-log-sub2
+  samplesID: 
+    short:
+      - ngs
+    # long:
+    #   - ontR9
+  true_abund: /home/work/wenhai/dataset/zymo_d6310_log/8species_abund.txt
+  strain_true_abund: /home/work/wenhai/dataset/zymo_d6310_log/strain_abundance.txt
+  reads_path:
+    ngs:
+      ngs_reads_fq: 
+      ngs_reads_fq1: /home/work/wenhai/dataset/zymo_d6310_log/illumina/in745_1_sub2_R1.fastq.gz
+      ngs_reads_fq2: /home/work/wenhai/dataset/zymo_d6310_log/illumina/in745_1_sub2_R2.fastq.gz
+      ngs_read_length: 101
+      camisim_reads_mapping_path: 
+      pantax_db:
+    ontR9:
+      ontR9_reads_fq: /home/work/wenhai/dataset/zymo_d6310_log/ontR9/Zymo-GridION-LOG-BB-SN.fq.gz
+      ontR9_reads_fa:
+      ontR9_read_length: 
+      camisim_reads_mapping_path: 
+      pantax_db:
+

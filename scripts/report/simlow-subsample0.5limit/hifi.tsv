@@ -1,0 +1,3 @@
+tool_name	profile_level	dataset	sample_id	0	1	2	3	4	5	6	7	8
+PanTax	strain_level	simlow-subsample0.5limit	hifi	0.949	0.933	0.941	0.913	0.052	0.004	0.301	0.249	0.124
+PanTax(fast)	strain_level	simlow-subsample0.5limit	hifi	0.947	0.900	0.923	0.871	0.063	0.004	0.318	0.268	0.134

@@ -1,0 +1,21 @@
+# @package _global_
+dataset:
+  _name_: atcc
+  samplesID: 
+    short:
+      - ngs
+    long:
+      - hifi
+  true_abund: /home/work/wenhai/dataset/ATCC_MSA_1003/strain_staggered/ATCC_MSA_1003_straggered_abundance.txt
+  reads_path:
+    ngs:
+      ngs_reads_fq: /home/work/wenhai/dataset/ATCC_MSA_1003/strain_staggered/illumina/SRR8359173/SRR8359173.fastq
+      ngs_reads_fq1: /home/work/wenhai/dataset/ATCC_MSA_1003/strain_staggered/illumina/SRR8359173/SRR8359173_1.fastq
+      ngs_reads_fq2: /home/work/wenhai/dataset/ATCC_MSA_1003/strain_staggered/illumina/SRR8359173/SRR8359173_2.fastq
+      ngs_read_length: 125
+      camisim_reads_mapping_path: 
+    hifi:
+      hifi_reads_fq: /home/work/wenhai/dataset/ATCC_MSA_1003/strain_staggered/hifi/SRR9328980/SRR9328980.fastq
+      hifi_reads_fa:
+      hifi_read_length: /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/long_alternative_methods/read_length/ATCC_read_length.txt
+      camisim_reads_mapping_path: 

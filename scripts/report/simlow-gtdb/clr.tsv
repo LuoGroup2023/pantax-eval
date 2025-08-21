@@ -1,0 +1,7 @@
+tool_name	profile_level	dataset	sample_id	0	1	2	3	4	5	6	7	8
+PanTax (fast)	strain_level	simlow-gtdb	clr	1.000	0.917	0.957	0.917	0.050	0.003	0.205	0.184	0.092
+Ganon	strain_level	simlow-gtdb	clr	-	-	-	-	-	-	-	-	-
+KMCP	strain_level	simlow-gtdb	clr	-	-	-	-	-	-	-	-	-
+Kraken2	strain_level	simlow-gtdb	clr	0.097	1.000	0.178	1.000	0.038	0.002	0.156	0.186	0.093
+Centrifuge	strain_level	simlow-gtdb	clr	0.064	1.000	0.121	0.999	0.031	0.002	0.100	0.144	0.072
+Centrifuger	strain_level	simlow-gtdb	clr	0.145	1.000	0.253	0.994	0.064	0.006	0.400	0.416	0.208

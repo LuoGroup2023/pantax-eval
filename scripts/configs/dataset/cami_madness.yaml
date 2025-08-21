@@ -1,0 +1,23 @@
+# @package _global_
+dataset:
+  _name_: cami_madness
+  samplesID: 
+    short:
+      - ngs
+    long:
+      - clr
+  # estimate from abundance_cal.py, need to modify to taxonomic profile 
+  true_abund: /home/work/wenhai/dataset/cami/madness_dataset/short_read/2018.09.07_11.43.52_sample_0/reads/true_species_abundance.txt
+  reads_path:
+    ngs:
+      ngs_reads_fq: /home/work/wenhai/dataset/cami/madness_dataset/short_read/2018.09.07_11.43.52_sample_0/reads/anonymous_reads.fq.gz
+      ngs_reads_fq1: /home/work/wenhai/dataset/cami/madness_dataset/short_read/2018.09.07_11.43.52_sample_0/reads/read1.fq
+      ngs_reads_fq2: /home/work/wenhai/dataset/cami/madness_dataset/short_read/2018.09.07_11.43.52_sample_0/reads/read2.fq
+      ngs_read_length: 150
+      camisim_reads_mapping_path: /home/work/wenhai/dataset/cami/madness_dataset/short_read/2018.09.07_11.43.52_sample_0/reads/reads_mapping.tsv
+    clr:
+      clr_reads_fq: /home/work/wenhai/dataset/cami/madness_dataset/long_read/2018.09.20_11.17.07_sample_0/reads/anonymous_reads.fq.gz
+      clr_reads_fa:
+      clr_read_length: /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/long_alternative_methods/read_length/cami_madness_read_length.txt
+      camisim_reads_mapping_path: /home/work/wenhai/dataset/cami/madness_dataset/long_read/2018.09.20_11.17.07_sample_0/reads/reads_mapping.tsv.gz
+

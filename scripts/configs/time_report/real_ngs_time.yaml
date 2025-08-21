@@ -1,0 +1,33 @@
+# @package _global_
+defaults:
+  - /time_report/database_build_time: ref13404
+
+specified_time_path: true
+report:
+  _name_: real_ngs_time
+  model_tex: configs/time_report/report_model/time_report_model.tex
+  profile_level: strain_level
+  query_dataset: ["PD"]
+  type: NGS
+  samplesID: 
+    - ngs
+  tools:
+    - PanTax
+    - PanTax(fast)
+    - Ganon
+    - KMCP
+    - Kraken2
+    - Bracken
+    - Centrifuge
+    - Centrifuger
+  tools_report:
+    PanTax-PD-ngs: [/home/work/gyli/real_human_gut/pantax/strain_level_0624/ngs_mode0/ngs/pantax_species_query_time.log,/home/work/gyli/real_human_gut/pantax/strain_level_0624/ngs_mode0/ngs/pantax_strain_query_time.log]
+    PanTax(fast)-PD-ngs: [/home/work/gyli/real_human_gut/pantax/strain_level_0624/ngs_mode1/ngs/create_db_time.log,/home/work/gyli/real_human_gut/pantax/strain_level_0624/ngs_mode1/ngs/create_index_time.log,/home/work/gyli/real_human_gut/pantax/strain_level_0624/ngs_mode1/ngs/pantax_species_query_time.log,/home/work/gyli/real_human_gut/pantax/strain_level_0624/ngs_mode1/ngs/pantax_strain_query_time.log]
+    Ganon-PD-ngs: /home/work/gyli/PD_qc/Low_Complexity_Filtered_Sequences/strain_level_pass/ganon/query_time.log
+    KMCP-PD-ngs: /home/work/gyli/PD_qc/Low_Complexity_Filtered_Sequences/strain_level_pass/kmcp/query_time.log
+    Kraken2-PD-ngs: /home/work/gyli/PD_qc/Low_Complexity_Filtered_Sequences/strain_level_pass/kraken2/query_time.log
+    Bracken-PD-ngs: /home/work/gyli/PD_qc/Low_Complexity_Filtered_Sequences/strain_level_pass/bracken/query_time.log
+    Centrifuge-PD-ngs: /home/work/gyli/PD_qc/Low_Complexity_Filtered_Sequences/strain_level_pass/centrifuge/query_time.log
+    Centrifuger-PD-ngs: /home/work/gyli/PD_qc/Low_Complexity_Filtered_Sequences/strain_level_pass/centrifuger/query_time.log
+
+  report_name: real_ngs_time

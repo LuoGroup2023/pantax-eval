@@ -1,0 +1,24 @@
+# @package _global_
+defaults:
+  - /time_report/database_build_time: ref13404
+report:
+  _name_: general_tgs_time
+  model_tex: configs/time_report/report_model/time_report_model.tex
+  profile_level: strain_level
+  query_dataset: ["simlow", "simhigh"]
+  type: TGS
+  samplesID: 
+    - hifi
+    - clr
+    - ontR9
+    - ontR10
+  tools:
+    - PanTax
+    - PanTax(fast)
+    - Ganon
+    - KMCP
+    - Kraken2
+    - Centrifuge
+    - Centrifuger
+    - MetaMaps
+  report_name: simulated_dataset_tgs_time

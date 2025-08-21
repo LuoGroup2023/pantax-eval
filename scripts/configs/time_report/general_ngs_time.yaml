@@ -1,0 +1,21 @@
+# @package _global_
+defaults:
+  - /time_report/database_build_time: ref13404
+report:
+  _name_: general_ngs_time
+  model_tex: configs/time_report/report_model/time_report_model.tex
+  profile_level: strain_level
+  query_dataset: ["simlow", "simhigh"]
+  type: NGS
+  samplesID: 
+    - ngs
+  tools:
+    - PanTax
+    - PanTax(fast)
+    - Ganon
+    - KMCP
+    - Kraken2
+    - Bracken
+    - Centrifuge
+    - Centrifuger
+  report_name: simulated_dataset_ngs_time

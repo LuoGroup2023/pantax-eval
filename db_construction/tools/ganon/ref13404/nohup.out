@@ -1,0 +1,62 @@
+- - - - - - - - - -
+   _  _  _  _  _   
+  (_|(_|| |(_)| |  
+   _|   v. 2.1.0
+- - - - - - - - - -
+Parsing ncbi taxonomy
+ - done in 14.01s.
+
+Parsing --input-file input_genomes.txt
+ - skipping invalid file/folder: id
+ - total valid files: 13404
+ - 1 invalid files skipped
+ - 13404 unique entries
+ - done in 20.46s.
+
+Validating taxonomy
+ - done in 0.21s.
+
+Downloading and parsing auxiliary files for genome size estimation
+ - done in 3.55s.
+
+Estimating genome sizes
+ - done in 12.06s.
+
+- - - - - - - - - -
+   _  _  _  _  _   
+  (_|(_|| |(_)| |  
+   _|   v. 2.1.0
+- - - - - - - - - -
+Parsing ncbi taxonomy
+ - done in 8.99s.
+
+Parsing --input-file input_genomes.txt
+ - total valid files: 13404
+ - 13404 unique entries
+ - done in 13.11s.
+
+Validating taxonomy
+ - done in 0.22s.
+
+Downloading and parsing auxiliary files for genome size estimation
+ - done in 1.60s.
+
+Estimating genome sizes
+ - done in 12.09s.
+
+Building index (raptor)
+Preparing files
+ - done in 31.44s.
+
+raptor prepare
+ - done in 726.57s.
+
+raptor layout
+ - done in 1338.93s.
+
+raptor build
+ - done in 830.91s.
+
+Database: /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/alternative_methods/ganon/ganon_db.hibf, /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/alternative_methods/ganon/ganon_db.tax
+Build finished successfully
+Total elapsed time: 3052.95 seconds.

@@ -1,0 +1,19 @@
+\begin{table}[!htbp]
+    \renewcommand\arraystretch{1.2}
+    \centering
+    \small
+    \setlength\tabcolsep{2pt} 
+    \begin{tabular}{l$tool_num_c$}
+    \hline
+    Method & $tools$\cr
+    %% start
+    \hline
+    \multicolumn{$col_num$}{l}{\textbf{$dataset$}} \cr
+    %% time
+    \hline
+    \bottomrule
+\end{tabular}
+\vspace{1mm}
+\caption{ Runtime and memory usages of benchmarking tools on $type$ data. During index construction, we measured the CPU time, wall time, and maximum RAM usage required by the benchmarking tools to build an index utilizing 64 threads. }
+\label{tab:$type$_running_time} 
+\end{table}

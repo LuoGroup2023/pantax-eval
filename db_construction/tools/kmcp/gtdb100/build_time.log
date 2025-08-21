@@ -1,0 +1,23 @@
+	Command being timed: "bash kmcp_build.sh"
+	User time (seconds): 111870.18
+	System time (seconds): 12287.79
+	Percent of CPU this job got: 272%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 12:39:56
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 23786860
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 220
+	Minor (reclaiming a frame) page faults: 165339042
+	Voluntary context switches: 591511256
+	Involuntary context switches: 2486482
+	Swaps: 0
+	File system inputs: 8506138160
+	File system outputs: 8603362784
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

@@ -1,0 +1,6 @@
+profile_level	dataset	sample_id	tool_name	0	1	2	3	4	5	6	7	8
+strain_level	Refdiv	hifi	ref2	1.000	1.000	1.000	1.000	0.010	0.001	0.087	0.060	0.030
+strain_level	Refdiv	hifi	ref3	1.000	1.000	1.000	1.000	0.010	0.001	0.090	0.060	0.030
+strain_level	Refdiv	hifi	ref1	1.000	1.000	1.000	1.000	0.010	0.001	0.084	0.058	0.029
+strain_level	Refdiv	hifi	ref4	1.000	1.000	1.000	1.000	0.011	0.001	0.094	0.065	0.033
+strain_level	Refdiv	hifi	ref5	1.000	0.983	0.992	0.983	0.012	0.001	0.119	0.070	0.035

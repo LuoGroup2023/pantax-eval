@@ -1,0 +1,45 @@
+# @package _global_
+dataset:
+  _name_: low_spiked_in_eight_species666_large_pangenome
+  samplesID: 
+    short:
+      - ngs
+    long:
+      - hifi
+      - ontR9
+      - ontR10
+      - clr
+  true_abund: 
+  strain_true_abund: /home/work/wenhai/simulate_genome_data/PanTax_species_666_for_large_pangenome/eight/low_sim_species666_eight_ngs/distributions/distribution_0.txt
+  reads_path:
+    ngs:
+      ngs_reads_fq: 
+      ngs_reads_fq1: /home/work/wenhai/simulate_genome_data/PanTax_species_666_for_large_pangenome/eight/low_sim_species666_eight_ngs/2024.12.26_16.58.02_sample_0/reads/shuffle_spiked_in_ngs_1.fq
+      ngs_reads_fq2: /home/work/wenhai/simulate_genome_data/PanTax_species_666_for_large_pangenome/eight/low_sim_species666_eight_ngs/2024.12.26_16.58.02_sample_0/reads/shuffle_spiked_in_ngs_2.fq
+      ngs_read_length: 150
+      camisim_reads_mapping_path: 
+      pantax_db: 
+    hifi:
+      hifi_reads_fq: /home/work/wenhai/simulate_genome_data/PanTax_species_666_for_large_pangenome/eight/low_sim_species666_eight_hifi/2024.12.26_18.00.41_sample_0/reads/shuffle_spiked_in_hifi.fq
+      hifi_reads_fa:
+      hifi_read_length: 
+      camisim_reads_mapping_path: 
+      pantax_db: 
+    ontR9:
+      ontR9_reads_fq: /home/work/wenhai/simulate_genome_data/PanTax_species_666_for_large_pangenome/eight/low_sim_species666_eight_ontr9/2024.12.28_09.24.29_sample_0/reads/shuffle_spiked_in_ontr9.fq
+      ontR9_reads_fa: 
+      ontR9_read_length: 
+      camisim_reads_mapping_path: 
+      pantax_db:
+    ontR10:
+      ontR10_reads_fq: /home/work/wenhai/simulate_genome_data/PanTax_species_666_for_large_pangenome/eight/low_sim_species666_eight_ontr10/2024.12.28_09.35.20_sample_0/reads/shuffle_spiked_in_ontr10.fq
+      ontR10_reads_fa:
+      ontR10_read_length: 
+      camisim_reads_mapping_path: 
+      pantax_db:
+    clr:
+      clr_reads_fq: /home/work/wenhai/simulate_genome_data/PanTax_species_666_for_large_pangenome/eight/low_sim_species666_eight_clr/2024.12.26_18.12.20_sample_0/reads/shuffle_spiked_in_clr.fq
+      clr_reads_fa:
+      clr_read_length: 
+      camisim_reads_mapping_path: 
+      pantax_db:

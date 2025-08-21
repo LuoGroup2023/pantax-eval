@@ -1,0 +1,31 @@
+# @package _global_
+dataset:
+  _name_: zymo1
+  samplesID: 
+    short:
+      - ngs
+    long:
+      - ontR9
+      - ontR10
+  true_abund: /home/work/wenhai/dataset/zymo/8species_abund.txt
+  strain_true_abund: /home/work/wenhai/dataset/zymo/strain_abundance.txt
+  reads_path:
+    ngs:
+      ngs_reads_fq: /home/work/wenhai/dataset/zymo/illumina/zymo_illumina_rename.fq
+      ngs_reads_fq1: /home/work/wenhai/dataset/zymo/illumina/ERR2984773_1.fastq
+      ngs_reads_fq2: /home/work/wenhai/dataset/zymo/illumina/ERR2984773_2.fastq
+      ngs_read_length: 151
+      camisim_reads_mapping_path: 
+      pantax_db:
+    ontR9:
+      ontR9_reads_fq: /home/work/wenhai/dataset/zymo/ontR9/ERR3152364.fastq
+      ontR9_reads_fa:
+      ontR9_read_length: /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/long_alternative_methods/read_length/zymo_R9_read_length.txt
+      camisim_reads_mapping_path: 
+      pantax_db:
+    ontR10:
+      ontR10_reads_fq: /home/work/wenhai/dataset/zymo/ontR10/Zymo-GridION-EVEN-BB-SN-PCR-R10HC-flipflop.fq
+      ontR10_reads_fa:
+      ontR10_read_length: /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/long_alternative_methods/read_length/zymo_read_length.txt
+      camisim_reads_mapping_path: 
+      pantax_db:

@@ -1,0 +1,9 @@
+tool	dataset	sample_id	cpu_time	wall_time	memory
+PanTax	PD	ngs	809.7	33.9	516.8
+PanTax(fast)	PD	ngs	16.6	0.6	15.2
+Ganon	PD	ngs	7.2	0.9	67.8
+KMCP	PD	ngs	31.9	2.2	18.9
+Kraken2	PD	ngs	567.2	19.7	53.6
+Bracken	PD	ngs	7.8	0.6	63.6
+Centrifuge	PD	ngs	52.1	6.9	357.9
+Centrifuger	PD	ngs	153.2	6.2	77.8

@@ -1,0 +1,7 @@
+tool_name	profile_level	dataset	sample_id	0	1	2	3	4	5	6	7	8
+PanTax (fast)	strain_level	simlow-gtdb-mut0.01	hifi	1.000	0.817	0.899	0.817	0.058	0.004	0.301	0.265	0.133
+Ganon	strain_level	simlow-gtdb-mut0.01	hifi	0.938	1.000	0.968	0.997	0.137	0.012	0.844	0.690	0.364
+KMCP	strain_level	simlow-gtdb-mut0.01	hifi	1.000	0.733	0.846	0.733	0.077	0.007	0.544	0.414	0.207
+Kraken2	strain_level	simlow-gtdb-mut0.01	hifi	0.324	1.000	0.490	1.000	0.021	0.001	0.065	0.078	0.039
+Centrifuge	strain_level	simlow-gtdb-mut0.01	hifi	0.531	1.000	0.694	1.000	0.010	0.000	0.023	0.030	0.015
+Centrifuger	strain_level	simlow-gtdb-mut0.01	hifi	0.462	1.000	0.632	1.000	0.069	0.007	0.435	0.402	0.201

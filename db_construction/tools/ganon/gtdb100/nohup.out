@@ -1,0 +1,38 @@
+- - - - - - - - - -
+   _  _  _  _  _   
+  (_|(_|| |(_)| |  
+   _|   v. 2.1.0
+- - - - - - - - - -
+Parsing ncbi taxonomy
+ - done in 1.32s.
+
+Parsing --input-file input_genomes.txt
+ - total valid files: 206273
+ - 206273 unique entries
+ - done in 741.17s.
+
+Validating taxonomy
+ - done in 0.87s.
+
+Downloading and parsing auxiliary files for genome size estimation
+ - done in 4.79s.
+
+Estimating genome sizes
+ - done in 2.54s.
+
+Building index (raptor)
+Preparing files
+ - done in 716.61s.
+
+raptor prepare
+ - done in 9524.60s.
+
+raptor layout
+ - done in 43749.65s.
+
+raptor build
+ - done in 14681.43s.
+
+Database: /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/alternative_methods/ganon/gtdb100/ganon_db.hibf, /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/alternative_methods/ganon/gtdb100/ganon_db.tax
+Build finished successfully
+Total elapsed time: 73361.83 seconds.

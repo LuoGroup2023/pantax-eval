@@ -1,0 +1,30 @@
+Input: 206273 genomes and 107205 taxon IDs.
+Reading taxonomy from /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/alternative_methods/metamaps/gtdb100/taxonomy/ ..
+	done.
+
+Introduced 132048 new taxonomic IDs
+Annotated 33602727 contigs
+
+Output new taxonomy into /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/alternative_methods/metamaps/gtdb100/download/new_taxonomy
+
+$VAR1 = [
+          'Annotation files',
+          0
+        ];
+$VAR2 = [
+          'Protein files',
+          0
+        ];
+
+Number of found FASTA input files: 1
+
+Reading taxonomy from /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/alternative_methods/metamaps/gtdb100/download/new_taxonomy ..
+	done.
+
+Running count keys in gene-2-protein: 0
+Reduced taxonomy in /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/alternative_methods/metamaps/gtdb100/databases/strain_level_metamaps_db/taxonomy from 269896 nodes to 269855 
+
+Produced randomized-order database sequence file /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/alternative_methods/metamaps/gtdb100/databases/strain_level_metamaps_db/DB.fa and
+	taxon info file /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/alternative_methods/metamaps/gtdb100/databases/strain_level_metamaps_db/taxonInfo.txt (206273 taxa).
+scalar((keys %gene_2_protein)): 0
+	Total protein annotations: 0 -- with sequence: 0

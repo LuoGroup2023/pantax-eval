@@ -1,0 +1,13 @@
+# @package _global_
+dataset:
+  _name_: zymo2
+  samplesID: 
+    long:
+      - hifi
+  true_abund: /home/work/wenhai/dataset/zymo_D6331/abundance.txt
+  reads_path:
+    hifi:
+      hifi_reads_fq: /home/work/wenhai/dataset/zymo_D6331/SRR13128014/SRR13128014.fastq
+      hifi_reads_fa:
+      hifi_read_length: /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/long_alternative_methods/read_length/zymo_d6331_read_length.txt
+      camisim_reads_mapping_path: 

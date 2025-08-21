@@ -1,0 +1,22 @@
+# @package _global_
+defaults:
+  - /dataset: simlow
+  - /tools: sylph
+
+top_wd: /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/alternative_methods_0208_auto
+scripts_dir: /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/scripts
+# profile level need to do. Note that don't set strain_level and zymo1_strain_level at the same time.
+species_level: false
+strain_level: true
+zymo1_strain_level: false
+spiked_in_strain_level: false
+spiked_in_strain_level_species666_large_pangenome: false
+gtdb_strain_level: false
+reference_diversity_strain_level: false
+genomes_length: /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/long_alternative_methods/evaluation_scripts/genome_length.txt
+genomes_avg_length: /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/long_alternative_methods/evaluation_scripts/avg_genome_length.txt
+genomes_length_for_strains: /home/work/wenhai/PanTax/data_preprocessing/genome_statics.txt
+database_genomes_info: /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/alternative_methods/13404_strain_genomes_info.txt
+shell_number_suffix:
+
+# python auto_pipline.py dataset=simlow,simhigh,cami_madness,gastrointestinal_tract,zymo1,zymo2,atcc,nwc isolate=true rebuild=true -m

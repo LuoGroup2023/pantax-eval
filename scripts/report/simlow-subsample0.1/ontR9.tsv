@@ -1,0 +1,7 @@
+tool_name	profile_level	dataset	sample_id	0	1	2	3	4	5	6	7	8
+Ganon	strain_level	simlow-subsample0.1	ontR9	0.809	0.917	0.859	0.891	0.152	0.016	0.936	0.941	0.884
+KMCP	strain_level	simlow-subsample0.1	ontR9	1.000	0.033	0.065	0.033	0.804	0.031	1.640	1.860	0.930
+Kraken2	strain_level	simlow-subsample0.1	ontR9	0.245	0.933	0.388	0.921	0.070	0.004	0.342	0.317	0.158
+Centrifuge	strain_level	simlow-subsample0.1	ontR9	0.228	0.933	0.366	0.930	0.056	0.003	0.236	0.265	0.132
+Centrifuger	strain_level	simlow-subsample0.1	ontR9	0.341	0.933	0.500	0.925	0.057	0.003	0.272	0.271	0.136
+MetaMaps	strain_level	simlow-subsample0.1	ontR9	0.700	0.933	0.800	0.923	0.039	0.003	0.243	0.216	0.108

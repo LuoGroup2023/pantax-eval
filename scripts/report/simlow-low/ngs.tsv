@@ -1,0 +1,7 @@
+tool_name	profile_level	dataset	sample_id	0	1	2	3	4	5	6	7	8
+Ganon	strain_level	simlow-low	ngs	0.313	0.867	0.460	0.721	0.049	0.004	0.274	0.111	0.056
+KMCP	strain_level	simlow-low	ngs	1.000	0.367	0.537	0.367	0.203	0.014	0.730	0.405	0.203
+Kraken2	strain_level	simlow-low	ngs	0.026	0.867	0.050	0.433	0.293	0.021	0.929	0.727	0.364
+Bracken	strain_level	simlow-low	ngs	0.118	0.667	0.201	0.451	0.108	0.005	0.397	0.288	0.144
+Centrifuge	strain_level	simlow-low	ngs	0.154	0.867	0.261	0.543	0.275	0.020	1.027	0.652	0.326
+Centrifuger	strain_level	simlow-low	ngs	0.213	0.867	0.342	0.636	0.009	0.001	0.185	0.023	0.012

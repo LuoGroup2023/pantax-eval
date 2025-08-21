@@ -1,0 +1,9 @@
+tool	dataset	sample_id	cpu_time	wall_time	memory
+PanTax	rmhost	ont	1041.4	32.6	476.9
+PanTax(fast)	rmhost	ont	70.1	1.5	28.6
+Ganon	rmhost	ont	-	-	-
+KMCP	rmhost	ont	-	-	-
+Kraken2	rmhost	ont	567.3	19.6	52.9
+Centrifuge	rmhost	ont	53.0	6.9	357.9
+Centrifuger	rmhost	ont	154.1	6.2	77.8
+MetaMaps	rmhost	ont	16.0	6.1	416.0

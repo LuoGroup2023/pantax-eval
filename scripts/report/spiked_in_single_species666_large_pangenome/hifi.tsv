@@ -1,0 +1,7 @@
+tool_name	profile_level	dataset	sample_id	0	1	2	3	4	5	6	7	8
+Ganon	strain_level	spiked_in_single_species666_large_pangenome	hifi	1.000	1.000	1.000	1.000	0.000	0.000	0.000	0.000	0.000
+KMCP	strain_level	spiked_in_single_species666_large_pangenome	hifi	1.000	1.000	1.000	1.000	0.000	0.000	0.000	0.000	0.000
+Kraken2	strain_level	spiked_in_single_species666_large_pangenome	hifi	1.000	1.000	1.000	1.000	0.000	0.000	0.000	0.000	0.000
+Centrifuge	strain_level	spiked_in_single_species666_large_pangenome	hifi	1.000	1.000	1.000	1.000	0.000	0.000	0.000	0.000	0.000
+Centrifuger	strain_level	spiked_in_single_species666_large_pangenome	hifi	1.000	1.000	1.000	1.000	0.000	0.000	0.000	0.000	0.000
+MetaMaps	strain_level	spiked_in_single_species666_large_pangenome	hifi	1.000	1.000	1.000	1.000	0.000	0.000	0.000	0.000	0.000

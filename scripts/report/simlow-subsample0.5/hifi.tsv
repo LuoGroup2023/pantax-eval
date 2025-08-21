@@ -1,0 +1,9 @@
+tool_name	profile_level	dataset	sample_id	0	1	2	3	4	5	6	7	8
+PanTax	strain_level	simlow-subsample0.5	hifi	0.709	0.933	0.806	0.929	0.050	0.003	0.287	0.268	0.134
+PanTax (fast)	strain_level	simlow-subsample0.5	hifi	0.740	0.900	0.812	0.878	0.060	0.004	0.306	0.287	0.143
+Ganon	strain_level	simlow-subsample0.5	hifi	0.636	0.933	0.757	0.920	0.040	0.003	0.207	0.219	0.110
+KMCP	strain_level	simlow-subsample0.5	hifi	1.000	0.283	0.442	0.283	0.210	0.021	1.497	1.231	0.616
+Kraken2	strain_level	simlow-subsample0.5	hifi	0.368	0.933	0.528	0.917	0.072	0.003	0.264	0.243	0.122
+Centrifuge	strain_level	simlow-subsample0.5	hifi	0.554	0.933	0.696	0.931	0.047	0.002	0.136	0.186	0.093
+Centrifuger	strain_level	simlow-subsample0.5	hifi	0.544	0.933	0.687	0.929	0.034	0.002	0.144	0.155	0.078
+MetaMaps	strain_level	simlow-subsample0.5	hifi	0.629	0.933	0.752	0.920	0.032	0.001	0.103	0.128	0.064

@@ -1,0 +1,35 @@
+# @package _global_
+tool:
+  _name_: metamaps
+  species_level:
+    db: 
+  strain_level:
+    db: /home/work/enlian/pantax/13404_other_softwares_result/strain_level/metamaps/databases/strain_level_metamaps_db
+    genome2seqid: /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/scripts/data/fna_seqID_taxid.txt
+  zymo1_strain_level:
+    db: /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/alternative_methods/metamaps/zymo1_strain/scripts/databases/strain_level_metamaps_db
+    genome2seqid: /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/scripts/data/zymo1_fna_seqID_taxid.txt
+    database_genomes_info: /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/multi_species_single_strain_zymo/genomes_info_sample.txt
+  spiked_in_strain_level:
+    db: /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/alternative_methods/metamaps/spiked_in_666/scripts/databases/strain_level_metamaps_db
+    genome2seqid: /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/scripts/data/spiked_in_666_fna_seqID_taxid.txt
+    database_genomes_info: /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/single_species_strain_level_666/pantax/pantax_db/genomes_info.txt
+  spiked_in_strain_level_species666_large_pangenome:
+    db: /home/work/enlian/pantax/13404_other_softwares_result/strain_level/metamaps/databases/strain_level_metamaps_db
+    genome2seqid: /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/scripts/data/fna_seqID_taxid.txt
+    designated_genomes_info: /home/work/wenhai/simulate_genome_data/PanTax_species_666_for_large_pangenome/scripts/genomes_info.txt
+  gtdb_strain_level:
+    db: /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/alternative_methods/metamaps/gtdb100/databases/strain_level_metamaps_db
+    genome2seqid: /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/scripts/data/gtdb100_fna_seqID_taxid.txt
+    database_genomes_info: /home/work/wenhai/metaprofiling/bacteria_GTDB/data/genomes_info.txt
+    genomes_length_for_strains: /home/work/wenhai/metaprofiling/bacteria_GTDB/data/genome_statics_gtdb.txt
+  # profile level tool can do
+  profile_level: 
+    - species_level
+    - strain_level
+    - zymo1_strain_level
+    - spiked_in_strain_level
+    - spiked_in_strain_level_species666_large_pangenome
+    - gtdb_strain_level
+  read_type:
+    - long

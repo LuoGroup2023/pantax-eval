@@ -1,0 +1,32 @@
+# @package _global_
+report:
+  _name_: single_species_strain_latex_report
+  # model_tex: configs/report/report_model/single_dataset_strain_report_model.tex
+  model_tex:
+  model_tex_split: [configs/report/report_model/single_dataset_strain_report_model1.tex, configs/report/report_model/single_dataset_strain_report_model2.tex]
+  profile_level: strain_level
+  report_path:
+    PanTax: /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/single_species_strain_level3/pantax/pantax_v2_eval3.log
+    StrainScan: /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/single_species_strain_level3/strainscan/strainscan_eval3.log
+    StrainGE: /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/single_species_strain_level3/straingst/straingst_eval3.log
+    StrainEst: /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/single_species_strain_level3/strainest/strainest_eval3.log
+
+    # PanTax: /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/single_species_strain_level3/pantax/pantax_eval3_hifi.log
+    # StrainScan: /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/single_species_strain_level3/strainscan/strainscan_eval3_hifi.log
+    # StrainGE: /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/single_species_strain_level3/straingst/straingst_eval3_hifi.log
+    # StrainEst:     
+
+    # PanTax: /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/single_species_strain_level3/pantax/pantax_eval3_clr.log
+    # StrainScan: /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/single_species_strain_level3/strainscan/strainscan_eval3_clr.log
+    # StrainGE: /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/single_species_strain_level3/straingst/straingst_eval3_clr.log
+    # StrainEst:
+
+    # PanTax: /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/single_species_strain_level3/pantax/pantax_eval3_ontR9.log
+    # StrainScan: /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/single_species_strain_level3/strainscan/strainscan_eval3_ontR9.log
+    # StrainGE: /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/single_species_strain_level3/straingst/straingst_eval3_ontR9.log
+    # StrainEst:
+
+    # PanTax: /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/single_species_strain_level3/pantax/pantax_eval3_ontR10.log
+    # StrainScan: /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/single_species_strain_level3/strainscan/strainscan_eval3_ontR10.log
+    # StrainGE: /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/single_species_strain_level3/straingst/straingst_eval3_ontR10.log
+    # StrainEst:

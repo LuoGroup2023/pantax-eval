@@ -1,0 +1,11 @@
+# @package _global_
+tool_database_build_time:
+  PanTax: [/home/work/wenhai/PanTax/pantax_db_rebuild/pantax_db_build_time.log, /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/alternative_methods/pantax/build_time_mem2.log]
+  PanTax(fast): 
+  Ganon: /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/alternative_methods/ganon/build_time.log
+  KMCP: /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/alternative_methods/kmcp/scripts/build_time.log
+  Kraken2: /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/alternative_methods/kraken2/strain/scripts/kraken2_build_time.log
+  Bracken: /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/alternative_methods/bracken/strain/build_time.log
+  Centrifuge: /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/alternative_methods/centrifuge/strain/centrifuge_build_time_mem.log
+  Centrifuger: /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/alternative_methods/centrifuger/strain/build_time.log
+  MetaMaps: /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/alternative_methods/metamaps/strain/metamaps_build_time_mem.log

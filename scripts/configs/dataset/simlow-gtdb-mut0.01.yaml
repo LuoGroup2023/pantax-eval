@@ -1,0 +1,46 @@
+# @package _global_
+dataset:
+  _name_: simlow-gtdb-mut0.01
+  samplesID: 
+    short:
+      - ngs
+    long:
+      - hifi
+      - ontR9
+      - ontR10
+      - clr
+  true_abund: /home/work/wenhai/simulate_genome_data/PanTax/prepare/30_species/true_species_abundance.txt
+  strain_true_abund: /home/work/wenhai/simulate_genome_data/PanTax_GTDB_1w/prepare/simlow/distribution.txt
+  # ncbi_taxid2gtdb_taxid: /home/work/wenhai/simulate_genome_data/PanTax_GTDB_1w/prepare/simlow/sim_genomes_info.txt
+  reads_path:
+    ngs:
+      ngs_reads_fq: /home/work/wenhai/simulate_genome_data/PanTax_GTDB_1w/simlow_mut0.01/ngs/simlow_ngs_mut0.01/2025.03.02_19.14.55_sample_0/reads/anonymous_reads.fq.gz
+      ngs_reads_fq1: /home/work/wenhai/simulate_genome_data/PanTax_GTDB_1w/simlow_mut0.01/ngs/simlow_ngs_mut0.01/2025.03.02_19.14.55_sample_0/reads/read1.fq
+      ngs_reads_fq2: /home/work/wenhai/simulate_genome_data/PanTax_GTDB_1w/simlow_mut0.01/ngs/simlow_ngs_mut0.01/2025.03.02_19.14.55_sample_0/reads/read2.fq
+      ngs_read_length: 150
+      camisim_reads_mapping_path: 
+      pantax_db:
+    hifi:
+      hifi_reads_fq: /home/work/wenhai/simulate_genome_data/PanTax_GTDB_1w/simlow_mut0.01/hifi/simlow_hifi_mut0.01/2025.03.02_19.15.04_sample_0/reads/anonymous_reads.fq.gz
+      hifi_reads_fa:
+      hifi_read_length: 
+      camisim_reads_mapping_path: 
+      pantax_db:
+    ontR9:
+      ontR9_reads_fq: /home/work/wenhai/simulate_genome_data/PanTax_GTDB_1w/simlow_mut0.01/ontR941/simlow_ontR941_mut0.01/2025.03.02_19.15.45_sample_0/reads/anonymous_reads.fq.gz
+      ontR9_reads_fa: 
+      ontR9_read_length: 
+      camisim_reads_mapping_path: 
+      pantax_db:
+    ontR10:
+      ontR10_reads_fq: /home/work/wenhai/simulate_genome_data/PanTax_GTDB_1w/simlow_mut0.01/ontR104/simlow_ontR104_mut0.01/2025.03.02_19.16.17_sample_0/reads/anonymous_reads.fq.gz
+      ontR10_reads_fa:
+      ontR10_read_length: 
+      camisim_reads_mapping_path: 
+      pantax_db:
+    clr:
+      clr_reads_fq: /home/work/wenhai/simulate_genome_data/PanTax_GTDB_1w/simlow_mut0.01/clr/simlow_clr_mut0.01/2025.03.02_19.15.29_sample_0/reads/anonymous_reads.fq.gz
+      clr_reads_fa:
+      clr_read_length: 
+      camisim_reads_mapping_path: 
+      pantax_db:

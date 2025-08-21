@@ -1,0 +1,10 @@
+tool_name	profile_level	dataset	sample_id	0	1	2	3	4	5	6	7	8
+PanTax	strain_level	simlow-sub0.01	ontR10	0.982	0.933	0.957	0.923	0.042	0.003	0.182	0.180	0.090
+PanTax (fast)	strain_level	simlow-sub0.01	ontR10	1.000	0.867	0.929	0.867	0.046	0.004	0.260	0.213	0.107
+Sylph	strain_level	simlow-sub0.01	ontR10	0.956	0.717	0.819	0.668	0.090	0.006	0.434	0.422	0.211
+Ganon	strain_level	simlow-sub0.01	ontR10	0.566	0.933	0.704	0.924	0.140	0.015	0.880	0.875	0.772
+KMCP	strain_level	simlow-sub0.01	ontR10	0.976	0.683	0.804	0.671	0.115	0.009	0.718	0.569	0.284
+Kraken2	strain_level	simlow-sub0.01	ontR10	0.128	0.933	0.226	0.918	0.070	0.004	0.277	0.294	0.147
+Centrifuge	strain_level	simlow-sub0.01	ontR10	0.128	0.933	0.224	0.928	0.051	0.003	0.147	0.211	0.105
+Centrifuger	strain_level	simlow-sub0.01	ontR10	0.223	0.933	0.360	0.923	0.053	0.003	0.209	0.224	0.112
+MetaMaps	strain_level	simlow-sub0.01	ontR10	0.487	0.933	0.640	0.917	0.036	0.002	0.154	0.159	0.079

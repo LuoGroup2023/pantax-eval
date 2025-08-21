@@ -1,0 +1,22 @@
+# @package _global_
+dataset:
+  _name_: gastrointestinal_tract
+  samplesID: 
+    short:
+      - ngs
+    long:
+      - clr
+  # estimate from abundance_cal.py, need to modify to taxonomic profile 
+  true_abund: /home/work/wenhai/dataset/cami/2nd_HMP/Gastrointestinal_tract/2017.12.04_18.45.54_sample_0/reads/true_species_abundance.txt
+  reads_path:
+    ngs:
+      ngs_reads_fq: /home/work/wenhai/dataset/cami/2nd_HMP/Gastrointestinal_tract/2017.12.04_18.45.54_sample_0/reads/anonymous_reads.fq.gz
+      ngs_reads_fq1: /home/work/wenhai/dataset/cami/2nd_HMP/Gastrointestinal_tract/2017.12.04_18.45.54_sample_0/reads/read1.fq
+      ngs_reads_fq2: /home/work/wenhai/dataset/cami/2nd_HMP/Gastrointestinal_tract/2017.12.04_18.45.54_sample_0/reads/read2.fq
+      ngs_read_length: 150
+      camisim_reads_mapping_path: /home/work/wenhai/dataset/cami/2nd_HMP/Gastrointestinal_tract/2017.12.04_18.45.54_sample_0/reads/reads_mapping.tsv
+    clr:
+      clr_reads_fq: /home/work/wenhai/dataset/cami/2nd_HMP/Gastrointestinal_tract_long/2018.01.23_11.53.11_sample_0/reads/anonymous_reads.fq
+      clr_reads_fa:
+      clr_read_length: /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/long_alternative_methods/read_length/gas_read_length.txt
+      camisim_reads_mapping_path: /home/work/wenhai/dataset/cami/2nd_HMP/Gastrointestinal_tract_long/2018.01.23_11.53.11_sample_0/reads/reads_mapping.tsv.gz

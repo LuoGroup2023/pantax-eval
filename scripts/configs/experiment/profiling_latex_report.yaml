@@ -1,0 +1,96 @@
+# @package _global_
+defaults:
+  - /report: single_dataset_strain_latex_report
+
+top_wd: /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/alternative_methods_0208_auto
+scripts_dir: /home/work/wenhai/metaprofiling/bacteria_refgenome_NCBIdata/scripts
+model: wd/tool_name/profile_level/dataset/samplesID
+report_name: evaluation_report.txt
+report_output_name:
+report_number_suffix:
+mode: general # general, simlow-sub
+report_mode: single # general, single
+version:
+asm2prof_wd:
+is_merge:
+tool_order: 
+  - PanTax 
+  - PanTax(fast) 
+  - PanTax (fast)
+  - Sylph
+  - Ganon
+  - KMCP
+  - KrakenUniq
+  - Kraken2
+  - Bracken
+  - CLARK
+  - Centrifuge
+  - Centrifuger
+  - MetaMaps
+  - MetaPhlAn4
+  - Qmatey
+  - MegaBLAST
+  - StrainScan
+  - StrainGE
+  - StrainEst
+  - hifiasm
+  - metaMDBG
+  - myloasm
+  - flye
+
+  # reference diversity
+  - SimRef1
+  - SimRef2
+  - SimRef3
+  - SimRef4
+  - SimRef5
+  - ZymoRef1
+  - ZymoRef2
+  - ZymoRef3
+
+tool_order_for_sub001:
+  - PanTax-sub0.01
+  - Sylph-sub0.01
+  - Ganon-sub0.01
+  - KMCP-sub0.01
+  - Centrifuger-sub0.01
+  - MetaMaps-sub0.01
+  # - PanTax
+  # - PanTax-sub0.01
+  # - Sylph
+  # - Sylph-sub0.01
+  # - Ganon
+  # - Ganon-sub0.01
+  # - KMCP
+  # - KMCP-sub0.01
+  # - Centrifuger
+  # - Centrifuger-sub0.01
+  # - MetaMaps
+  # - MetaMaps-sub0.01
+tool_order_for_sub0001:
+  - PanTax-sub0.001
+  - Sylph-sub0.001
+  - Ganon-sub0.001
+  - KMCP-sub0.001  
+  - Centrifuger-sub0.001   
+  - MetaMaps-sub0.001
+  # - PanTax
+  # - PanTax-sub0.001
+  # - Sylph
+  # - Sylph-sub0.001
+  # - Ganon
+  # - Ganon-sub0.001
+  # - KMCP
+  # - KMCP-sub0.001  
+  # - Centrifuger
+  # - Centrifuger-sub0.001   
+  # - MetaMaps
+  # - MetaMaps-sub0.001
+samplesID: 
+  - ngs
+  - hifi
+  - clr
+  - ontR9
+  - ontR10
+  - ont
+  - pacbio
